@@ -1,0 +1,25 @@
+@charset "UTF-8";
+<style>
+      .body-head{
+          height: 200px;
+      }
+      .body-body{
+          height: 400px;
+      }
+      .body-foot{
+          height: 200px;
+      }
+      img{
+          height: 250px;
+          align-content: center;
+          width: 1000px;
+      }
+      .body-foot{
+          height: 100px;
+      }
+      .foot-font{
+          font-size: 20px;
+          color: white;
+          text-align: center;
+      }
+  </style>
