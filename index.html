@@ -11,7 +11,7 @@
 <body>
     <!-- 页眉 -->
     <!-- 导航栏 -->
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark" >
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top" >
         <div class="container-fluid">
           <a class="navbar-brand" href="javascript:void(0)"><span>WildAnimals</span></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
@@ -38,7 +38,7 @@
     </nav>
     
     <!-- 轮播图 -->
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div id="carouselExampleCaptions" class="carousel slide pt-3 nav-top" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -78,16 +78,29 @@
 
     </div>
     <!-- 主体 -->
-    <div class="container body-body" style="border: 1px solid blue;">
-        
+    <div class="container body-body " style="border: 1px solid blue;">
+        <h1 class="pt-2">Introduction</h1>
+        <hr/>
+        <span>This website contains data and code of the benchmark evaluation of online visual tracking algorithms.<br/></span>
+        <!-- <span>Join visual-tracking Google groups for further updates, discussions, or QnAs<br/></span> -->
+
+        <span class="span3">You can find the following resources from this site.<br/></span>
+        <ul style="padding-left: 100px;">
+          <li>Benchmark results</li>
+          <li>Dataset with ground-truth annotations</li>
+        </ul>
     </div>
+
     <!-- 页脚 -->
     <div class="container-fluid body-foot bg-dark" style="border: 1px solid black;">
-        <div class="row">
-            <div class="col">.col</div>
-            <div class="col">.col</div>
-            <div class="col">.col</div>
-          </div>
+        <div class="row foot-div pt-3">
+            <div class="col foot-div">.col</div>
+            <div class="col foot-div">
+                <span class="foot-font ps-3">Copyring @ WildAnimal Team 2022</span>
+            </div>
+            <div class="col foot-div">.col</div>
+        </div>
     </div>
 </body>
 </html>
+
