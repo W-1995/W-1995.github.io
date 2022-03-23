@@ -8,7 +8,7 @@
   <script src="js/bootstrap.bundle.min.js"></script>
   <link href="css/me.css" rel="stylesheet">
 </head>
-<body>
+<body style="border:1px solid red">
     <!-- 页眉 -->
     <!-- 导航栏 -->
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top" >
@@ -27,7 +27,7 @@
                     <a class="nav-link active" href="javascript:void(0)" style="margin-left: 550px;">Home</a>
                 </li>
                 <li class="nav-item" >
-                    <a class="nav-link" href="javascript:void(0)">Benchmark</a>
+                    <a class="nav-link" href="./Benchmark.html">Benchmark</a>
                  </li>
                 <li class="nav-item">
                     <a class="nav-link" href="javascript:void(0)">Evaluation and Result</a>
@@ -78,7 +78,7 @@
 
     </div>
     <!-- 主体 -->
-    <div class="container body-body " style="border: 1px solid blue;">
+    <div class="container body-body ">
         <h1 class="pt-2">Introduction</h1>
         <hr/>
         <span>This website contains data and code of the benchmark evaluation of online visual tracking algorithms.<br/></span>
@@ -88,18 +88,73 @@
         <ul style="padding-left: 100px;">
           <li>Benchmark results</li>
           <li>Dataset with ground-truth annotations</li>
+          <li>Large-scale: 1,550 sequences</li>
+          <li>High-quality: Manual annotation with careful inspection in each frame</li>
         </ul>
-    </div>
 
+        <span>Please check out the benchmark details and download links at WordAnimal 
+          <a href="javascript:void(0)">
+            <b>
+              <font style="vertical-align: inherit;">Benchmark</font>
+            </b>
+          </a>
+          page, evaluation toolkit and sample results at 
+          <a href="javascript:void(0)">
+            <b>
+              <font style="vertical-align: inherit;">Evaluation and Result</font>
+            </b>
+          </a>
+        </span>
+        <h1 class="pt-2 h1-2">How to get the tracker benchmark data</h1>
+        <hr/>
+        <sapn style="margin-left: 50px;">Because our data sets is too large, it is divided into three parts in Google Drive:(<b>WATB_part1.zip、</b><b>WATB_part2.zip、</b><b>WATB_part3.zip、</b>)<br/></sapn>
+        <sapn style="margin-left: 50px;">Challenge attribute set in Google Drive:(<b>WATB_attribute_files.rar</b>)</sapn>
+        <ul style="padding-left: 100px;">
+          <li>
+            <a href="javascript:void(0)"  target="_blank">
+              <b>
+                <font style="vertical-align: inherit;">WATB_part1.zip</font>
+              </b>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:void(0)"  target="_blank">
+              <b>
+                <font style="vertical-align: inherit;">WATB_part2.zip</font>
+              </b>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:void(0)"  target="_blank">
+              <b>
+                <font style="vertical-align: inherit;">WATB_part3.zip</font>
+              </b>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:void(0)"  target="_blank">
+              <b>
+                <font style="vertical-align: inherit;">WATB_attribute_files.rar</font>
+              </b>
+            </a>
+          </li>
+        </ul>
+        <sapn style="margin-left: 50px;">And You can download data sets in Baidu Netdisk:</sapn>
+        <ul style="padding-left: 100px;">
+          <li>
+            <a href="https://pan.baidu.com/s/1a6ITsoUJUqQXmuHbhj5oiw" target="_blank">
+              <b>
+                <font style="vertical-align: inherit;">AnimalData.rar</font>
+              </b>
+            </a>
+          </li>
+        </ul>
+        <h1 class="pt-2 h1-2">Reference</h1>
+        <hr/>
+    </div>
     <!-- 页脚 -->
-    <div class="container-fluid body-foot bg-dark" style="border: 1px solid black;">
-        <div class="row foot-div pt-3">
-            <div class="col foot-div">.col</div>
-            <div class="col foot-div">
-                <span class="foot-font ps-3">Copyring @ WildAnimal Team 2022</span>
-            </div>
-            <div class="col foot-div">.col</div>
-        </div>
+    <div class="body-foot bg-dark" >
+      Copyring @ WildAnimal Team 2022
     </div>
 </body>
 </html>
