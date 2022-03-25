@@ -89,7 +89,7 @@
           <li>Each row in the ground-truth files represents the bounding box of the target in that frame,(x, y, box-width, box-height).</li>
           <li>In sequences the first row corresponds to the first frame and the last row to the last frame</li>
         </ul>
-
+        <!-- 显示206个数据集 -->
         <h1 class="pt-2 h1-2">TB-206</h1>
         <hr/>
         <div class="container">
@@ -1241,8 +1241,84 @@
                 </div>
             </div>
         </div>
+        <!-- 显示各个属性名称 -->
+        <h1>Attributes</h1>
+        <hr/>
         
-        
+        <div class="container">
+            <span>We have manually tagged the test sequences with 13 attributes, which represents the challenging aspects in visual tracking.</span>
+            <table class="table table-striped table-hover">
+                <thead>
+                  <tr>
+                    <th scope="col" >NAME</th>
+                    <th scope="col" colspan="3">DESCRIPTION</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row" style="width: 10%;">IV</th>
+                    <td colspan="3">
+                        Illumination Variation - the illumination in the target region is significantly changed.
+                        <br>
+                        AcanthopagrusSchlegelii1,
+                        <br>
+                        sdfjlask
+                        <br>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row" style="width: 10%;">OPR</th>
+                    <td colspan="3">Out-of-Plane Rotation – the target rotates out of the image plane.</td>
+                  </tr>
+                  <tr>
+                    <th scope="row" style="width: 10%;">IPR</th>
+                    <td colspan="3">In-Plane Rotation – the target rotates in the image plane.</td>
+                  </tr>
+                  <tr>
+                    <th scope="row" style="width: 10%;">DEF</th>
+                    <td colspan="3">Deformation – non-rigid object deformation.</td>
+                  </tr>
+                  <tr>
+                    <th scope="row" style="width: 10%;">FM</th>
+                    <td colspan="3">Fast Motion – the motion of the ground truth is larger than tm pixels (tm=20).</td>
+                  </tr>
+                  <tr>
+                    <th scope="row" style="width: 10%;">SV</th>
+                    <td colspan="3">Scale Variation – the ratio of the bounding boxes of the first frame and the current frame is out of the range ts, ts > 1 (ts=2).</td>
+                  </tr>
+                  <tr>
+                    <th scope="row" style="width: 10%;">CM</th>
+                    <td colspan="3">Mark</td>
+                  </tr>
+                  <tr>
+                    <th scope="row" style="width: 10%;">OV</th>
+                    <td colspan="3">Out-of-View – some portion of the target leaves the view.</td>
+                  </tr>
+                  <tr>
+                    <th scope="row" style="width: 10%;">POC</th>
+                    <td colspan="3">Mark</td>
+                  </tr>
+                  <tr>
+                    <th scope="row" style="width: 10%;">FOC</th>
+                    <td colspan="3">Mark</td>
+                  </tr>
+                  <tr>
+                    <th scope="row" style="width: 10%;">LR</th>
+                    <td colspan="3">Low Resolution – the number of pixels inside the ground-truth bounding box is less than tr (tr =400).</td>
+                  </tr>
+                  <tr>
+                    <th scope="row" style="width: 10%;">SOB</th>
+                    <td colspan="3">Mark</td>
+                  </tr>
+                  <tr>
+                    <th scope="row" style="width: 10%;">MB</th>
+                    <td colspan="3">Motion Blur – the target region is blurred due to the motion of target or camera.</td>
+                  </tr>
+
+                  
+                </tbody>
+              </table>
+        </div>
     </div>
 
     <!-- 页脚 -->
