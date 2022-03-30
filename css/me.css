@@ -46,7 +46,7 @@
           height: 340px;
       }
       .attribute-img  img{
-          /* border: 1px solid blue; */
+          border: 1px solid blue;
       }
       .attribute-img div{
           text-align: center;
