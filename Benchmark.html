@@ -1259,58 +1259,58 @@
                     <th scope="row" style="width: 10%;">IV</th>
                     <td colspan="3">
                         <!-- IV 介绍 -->
-                        Illumination Variation - the illumination in the target region is significantly changed.
+                        The lighting condition changes during tracking.
                     </td>
                   </tr>
                   <tr>
                     <th scope="row" style="width: 10%;">OPR</th>
                     <td colspan="3">
-                        OPR介绍：
+                        The object rotates out of the image plane.
                     </td>
                   </tr>
                   <tr>
                     <th scope="row" style="width: 10%;">IPR</th>
-                    <td colspan="3">In-Plane Rotation – the target rotates in the image plane.</td>
+                    <td colspan="3">The object rotates in the image plane.</td>
                   </tr>
                   <tr>
                     <th scope="row" style="width: 10%;">DEF</th>
-                    <td colspan="3">Deformation – non-rigid object deformation.</td>
+                    <td colspan="3">The shape of the target is changing during tracking.</td>
                   </tr>
                   <tr>
                     <th scope="row" style="width: 10%;">FM</th>
-                    <td colspan="3">Fast Motion – the motion of the ground truth is larger than tm pixels (tm=20).</td>
+                    <td colspan="3">The distance between adjacent frames is larger than the target size.</td>
                   </tr>
                   <tr>
                     <th scope="row" style="width: 10%;">SV</th>
-                    <td colspan="3">Scale Variation – the ratio of the bounding boxes of the first frame and the current frame is out of the range ts, ts > 1 (ts=2).</td>
+                    <td colspan="3">The size of the object area is beyond the interval [0.5,2].</td>
                   </tr>
                   <tr>
                     <th scope="row" style="width: 10%;">CM</th>
-                    <td colspan="3">Mark</td>
+                    <td colspan="3">Camera witching, sudden camera moving</td>
                   </tr>
                   <tr>
                     <th scope="row" style="width: 10%;">OV</th>
-                    <td colspan="3">Out-of-View – some portion of the target leaves the view.</td>
+                    <td colspan="3">The object is disappeared from the target region.</td>
                   </tr>
                   <tr>
                     <th scope="row" style="width: 10%;">POC</th>
-                    <td colspan="3">Mark</td>
+                    <td colspan="3">The object is partially occluded</td>
                   </tr>
                   <tr>
                     <th scope="row" style="width: 10%;">FOC</th>
-                    <td colspan="3">Mark</td>
+                    <td colspan="3">The object is fully occluded.</td>
                   </tr>
                   <tr>
                     <th scope="row" style="width: 10%;">LR</th>
-                    <td colspan="3">Low Resolution – the number of pixels inside the ground-truth bounding box is less than tr (tr =400).</td>
+                    <td colspan="3">The size of the object area is less than 1000 pixels.</td>
                   </tr>
                   <tr>
                     <th scope="row" style="width: 10%;">SOB</th>
-                    <td colspan="3">Mark</td>
+                    <td colspan="3">Similar object appeared in the background</td>
                   </tr>
                   <tr>
                     <th scope="row" style="width: 10%;">MB</th>
-                    <td colspan="3">Motion Blur – the target region is blurred due to the motion of target or camera.</td>
+                    <td colspan="3">Blurred object region due to camera shaking or fast moving of object.</td>
                   </tr>
 
                   
