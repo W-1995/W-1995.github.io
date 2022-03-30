@@ -15,7 +15,7 @@
           color: white;
       }
       img{
-          height: 250px;
+          height: 300px;
           align-content: center;
           width: 1000px;
       }
@@ -42,6 +42,16 @@
       .row{
           height: 210px;
       }
-      
-      
+      .attribute-img{
+          height: 340px;
+      }
+      .attribute-img  img{
+          /* border: 1px solid blue; */
+      }
+      .attribute-img div{
+          text-align: center;
+      }
+      .attribute-img span{
+          font-size: 30px;
+      }
   </style>
