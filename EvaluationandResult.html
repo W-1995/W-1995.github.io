@@ -291,7 +291,48 @@
                   </tbody>
             </table>
         </div>
-
+        <!-- 整体性能 -->
+        <h1>Overall all Performance</h1>
+        <hr>
+        <p style="padding-left:25px">
+          We extensively tested 38 trackers on WATB. Each tracker is run individually without any modification and re-training. 
+          We employ the precision measure,normalized precision measure and success measure for all the tested trackers and draw corresponding plots to compare their performance which are shown in figure below.
+        </p>
+        <div style="padding-left: 50px;">
+            <div class="container">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col" class=" th-css">precision</th>
+                      <th scope="col" class=" th-css">normalized precision</th>
+                      <th scope="col" class=" th-css">success measures</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr style="border-bottom: 0px solid white;">
+                      <!-- 精度图--precisionImg -->
+                      <td>
+                        <a href="./img/precisionImg/error_OPE_threshold.png" target="blank">
+                          <img class="img-fluid" src="./img/precisionImg/error_OPE_threshold.png">
+                        </a>
+                      </td>
+                      <!-- 标准化图--normalizedPrecisionImg -->
+                      <td>
+                        <a href="./img/normalizedPrecisionImg/error_OPE_threshold.png" target="blank">
+                          <img class="img-fluid" src="./img/normalizedPrecisionImg/error_OPE_threshold.png">
+                        </a>
+                      </td>
+                      <!-- 成功图--successImg -->
+                      <td>
+                        <a href="./img/successImg/overlap_OPE_AUC.png" target="blank">
+                          <img class="img-fluid" src="./img/successImg/overlap_OPE_AUC.png">
+                        </a>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+            </div>
+        </div>
         <!-- 评估结果 -->
         <h1>Evaluation results</h1>
         <hr>
