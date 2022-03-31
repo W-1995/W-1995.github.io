@@ -602,6 +602,1677 @@
             </tbody>
           </table>
         </div>
+
+        <h1>Test results</h1>
+        <hr>
+        <p style="padding-left: 25px;">
+          The normalized precision scores of the evaluated trackers over 13 attributes are given in following table. 
+          The results of deep trackers and CF trackers are separated and listed in different parts of the table.
+          For deep trackers, the best three results are shown in 
+          <span class="test-result-red">red</span>, 
+          <span class="test-result-blue">blue</span> and 
+          <span class="test-result-green">green</span>, respectively, while the best three CF trackers are shown in italic style using similar colors to deep trackers.
+        </p>
+        <div class="container">
+          <table class="table">
+            <thead></thead>
+            <thead>
+              <tr>
+                <th scope="col">Trackers</th>
+                <th scope="col">SV</th>
+                <th scope="col">OPR</th>
+                <th scope="col">POC</th>
+                <th scope="col">FM</th>
+                <th scope="col">DEF</th>
+                <th scope="col">MB</th>
+                <th scope="col">CM</th>
+                <th scope="col">LR</th>
+                <th scope="col">SO</th>
+                <th scope="col">FOC</th>
+                <th scope="col">IPR</th>
+                <th scope="col">IV</th>
+                <th scope="col">OV</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Stark</th>
+                <td>
+                  <span class="attribute-table-red">0.566</span>
+                </td>
+                <td>
+                  <span class="attribute-table-red">0.543</span>
+                </td>
+                <td>
+                  <span class="attribute-table-red">0.529</span>
+                </td>
+                <td>
+                  <span class="attribute-table-red">0.508</span>
+                </td>
+                <td>
+                  <span class="attribute-table-red">0.633</span>
+                </td>
+                <td>
+                  <span class="attribute-table-red">0.515</span>
+                </td>
+                <td>
+                  <span class="attribute-table-red">0.521</span>
+                </td>
+                <td>
+                  <span class="attribute-table-red">0.525</span>
+                </td>
+                <td>
+                  <span>0.537</span>
+                </td>
+                <td>
+                  <span class="attribute-table-red">0.414</span>
+                </td>
+                <td>
+                  <span class="attribute-table-red">0.557</span>
+                </td>
+                <td>
+                  <span class="attribute-table-blue">0.500</span>
+                </td>
+                <td>
+                  <span class="attribute-table-red">0.521</span>
+                </td>
+              </tr>
+              
+              <tr>
+                <th scope="row">STMTrack</th>
+                <td>
+                  <span class="attribute-table-blue">0.535</span>
+                </td>
+                <td>
+                  <span class="attribute-table-blue">0.535</span>
+                </td>
+                <td>
+                  <span class="attribute-table-green">0.488</span>
+                </td>
+                <td>
+                  <span>0.433</span>
+                </td>
+                <td>
+                  <span class="attribute-table-blue">0.595</span>
+                </td>
+                <td>
+                  <span class="attribute-table-green">0.453</span>
+                </td>
+                <td>
+                  <span>0.428</span>
+                </td>
+                <td>
+                  <span class="attribute-table-blue">0.496</span>
+                </td>
+                <td>
+                  <span class="attribute-table-blue">0.559</span>
+                </td>
+                <td>
+                  <span>0.348</span>
+                </td>
+                <td>
+                  <span class="attribute-table-blue">0.538</span>
+                </td>
+                <td>
+                  <span class="attribute-table-red">0.515</span>
+                </td>
+                <td>
+                  <span>0.461</span>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">TransT</th>
+                <td>
+                  <span class="attribute-table-green">0.532</span>
+                </td>
+                <td>
+                  <span class="attribute-table-green">0.521</span>
+                </td>
+                <td>
+                  <span class="attribute-table-blue">0.494</span>
+                </td>
+                <td>
+                  <span class="attribute-table-blue">0.460</span>
+                </td>
+                <td>
+                  <span class="attribute-table-green">0.587</span>
+                </td>
+                <td>
+                  <span class="attribute-table-blue">0.461</span>
+                </td>
+                <td>
+                  <span class="attribute-table-blue">0.452</span>
+                </td>
+                <td>
+                  <span>0.475</span>
+                </td>
+                <td>
+                  <span>0.548</span>
+                </td>
+                <td>
+                  <span class="attribute-table-blue">0.372</span>
+                </td>
+                <td>
+                  <span class="attribute-table-blue">0.538</span>
+                </td>
+                <td>
+                  <span class="attribute-table-green">0.486</span>
+                </td>
+                <td>
+                  <span class="attribute-table-blue">0.487</span>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">Dimp50</th>
+                <td>
+                  <span>0.508</span>
+                </td>
+                <td>
+                  <span>0.492</span>
+                </td>
+                <td>
+                  <span>0.472</span>
+                </td>
+                <td>
+                  <span class="attribute-table-green">0.445</span>
+                </td>
+                <td>
+                  <span>0.568</span>
+                </td>
+                <td>
+                  <span>0.449</span>
+                </td>
+                <td>
+                  <span class="attribute-table-green">0.439</span>
+                </td>
+                <td>
+                  <span class="attribute-table-green">0.482</span>
+                </td>
+                <td>
+                  <span>0.527</span>
+                </td>
+                <td>
+                  <span class="attribute-table-green">0.353</span>
+                </td>
+                <td>
+                  <span>0.506</span>
+                </td>
+                <td>
+                  <span>0.476</span>
+                </td>
+                <td>
+                  <span class="attribute-table-green">0.477</span>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">SiamAttn</th>
+                <td>
+                  <span>0.499</span>
+                </td>
+                <td>
+                  <span>0.493</span>
+                </td>
+                <td>
+                  <span>0.461</span>
+                </td>
+                <td>
+                  <span>0.399</span>
+                </td>
+                <td>
+                  <span>0.532</span>
+                </td>
+                <td>
+                  <span>0.425</span>
+                </td>
+                <td>
+                  <span>0.405</span>
+                </td>
+                <td>
+                  <span>0.417</span>
+                </td>
+                <td>
+                  <span class="attribute-table-red">0.566</span>
+                </td>
+                <td>
+                  <span>0.334</span>
+                </td>
+                <td>
+                  <span>0.516</span>
+                </td>
+                <td>
+                  <span>0.464</span>
+                </td>
+                <td>
+                  <span>0.422</span>
+                </td>
+              </tr>
+              
+              <tr>
+                <th scope="row">SiamBAN</th>
+                <td>
+                  <span>0.496</span>
+                </td>
+                <td>
+                  <span>0.495</span>
+                </td>
+                <td>
+                  <span>0.455</span>
+                </td>
+                <td>
+                  <span>0.402</span>
+                </td>
+                <td>
+                  <span>0.531</span>
+                </td>
+                <td>
+                  <span>0.434</span>
+                </td>
+                <td>
+                  <span>0.401</span>
+                </td>
+                <td>
+                  <span>0.419</span>
+                </td>
+                <td>
+                  <span class="attribute-table-green">0.551</span>
+                </td>
+                <td>
+                  <span>0.322</span>
+                </td>
+                <td>
+                  <span>0.488</span>
+                </td>
+                <td>
+                  <span>0.449</span>
+                </td>
+                <td>
+                  <span>0.441</span>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">Diamp18</th>
+                <td>
+                  <span>0.496</span>
+                </td>
+                <td>
+                  <span>0.488</span>
+                </td>
+                <td>
+                  <span>0.464</span>
+                </td>
+                <td>
+                  <span>0.428</span>
+                </td>
+                <td>
+                  <span>0.543</span>
+                </td>
+                <td>
+                  <span>0.454</span>
+                </td>
+                <td>
+                  <span>0.416</span>
+                </td>
+                <td>
+                  <span>0.468</span>
+                </td>
+                <td>
+                  <span>0.510</span>
+                </td>
+                <td>
+                  <span>0.350</span>
+                </td>
+                <td>
+                  <span class="attribute-table-green">0.534</span>
+                </td>
+                <td>
+                  <span>0.466</span>
+                </td>
+                <td>
+                  <span>0.456</span>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">ATOM</th>
+                <td>
+                  <span>0.473</span>
+                </td>
+                <td>
+                  <span>0.457</span>
+                </td>
+                <td>
+                  <span>0.434</span>
+                </td>
+                <td>
+                  <span>0.409</span>
+                </td>
+                <td>
+                  <span>0.512</span>
+                </td>
+                <td>
+                  <span>0.428</span>
+                </td>
+                <td>
+                  <span>0.428</span>
+                </td>
+                <td>
+                  <span>0.428</span>
+                </td>
+                <td>
+                  <span>0.520</span>
+                </td>
+                <td>
+                  <span>0.337</span>
+                </td>
+                <td>
+                  <span>0.505</span>
+                </td>
+                <td>
+                  <span>0.474</span>
+                </td>
+                <td>
+                  <span>0.433</span>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">SiamRPN++</th>
+                <td>
+                  <span>0.457</span>
+                </td>
+                <td>
+                  <span>0.456</span>
+                </td>
+                <td>
+                  <span>0.427</span>
+                </td>
+                <td>
+                  <span>0.363</span>
+                </td>
+                <td>
+                  <span>0.490</span>
+                </td>
+                <td>
+                  <span>0.402</span>
+                </td>
+                <td>
+                  <span>0.372</span>
+                </td>
+                <td>
+                  <span>0.406</span>
+                </td>
+                <td>
+                  <span>0.512</span>
+                </td>
+                <td>
+                  <span>0.307</span>
+                </td>
+                <td>
+                  <span>0.471</span>
+                </td>
+                <td>
+                  <span>0.456</span>
+                </td>
+                <td>
+                  <span>0.398</span>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">SiamCAR</th>
+                <td>
+                  <span>0.455</span>
+                </td>
+                <td>
+                  <span>0.465</span>
+                </td>
+                <td>
+                  <span>0.428</span>
+                </td>
+                <td>
+                  <span>0.370</span>
+                </td>
+                <td>
+                  <span>0.483</span>
+                </td>
+                <td>
+                  <span>0.413</span>
+                </td>
+                <td>
+                  <span>0.356</span>
+                </td>
+                <td>
+                  <span>0.415</span>
+                </td>
+                <td>
+                  <span>0.534</span>
+                </td>
+                <td>
+                  <span>0.312</span>
+                </td>
+                <td>
+                  <span>0.492</span>
+                </td>
+                <td>
+                  <span>0.413</span>
+                </td>
+                <td>
+                  <span>0.423</span>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">SiamRPN</th>
+                <td>
+                  <span>0.435</span>
+                </td>
+                <td>
+                  <span>0.440</span>
+                </td>
+                <td>
+                  <span>0.417</span>
+                </td>
+                <td>
+                  <span>0.356</span>
+                </td>
+                <td>
+                  <span>0.464</span>
+                </td>
+                <td>
+                  <span>0.382</span>
+                </td>
+                <td>
+                  <span>0.355</span>
+                </td>
+                <td>
+                  <span>0.382</span>
+                </td>
+                <td>
+                  <span>0.497</span>
+                </td>
+                <td>
+                  <span>0.312</span>
+                </td>
+                <td>
+                  <span>0.451</span>
+                </td>
+                <td>
+                  <span>0.436</span>
+                </td>
+                <td>
+                  <span>0.408</span>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">SiamMask</th>
+                <td>
+                  <span>0.430</span>
+                </td>
+                <td>
+                  <span>0.436</span>
+                </td>
+                <td>
+                  <span>0.395</span>
+                </td>
+                <td>
+                  <span>0.341</span>
+                </td>
+                <td>
+                  <span>0.467</span>
+                </td>
+                <td>
+                  <span>0.367</span>
+                </td>
+                <td>
+                  <span>0.344</span>
+                </td>
+                <td>
+                  <span>0.392</span>
+                </td>
+                <td>
+                  <span>0.532</span>
+                </td>
+                <td>
+                  <span>0.278</span>
+                </td>
+                <td>
+                  <span>0.458</span>
+                </td>
+                <td>
+                  <span>0.401</span>
+                </td>
+                <td>
+                  <span>0.379</span>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">SiamFC</th>
+                <td>
+                  <span>0.357</span>
+                </td>
+                <td>
+                  <span>0.337</span>
+                </td>
+                <td>
+                  <span>0.325</span>
+                </td>
+                <td>
+                  <span>0.308</span>
+                </td>
+                <td>
+                  <span>0.374</span>
+                </td>
+                <td>
+                  <span>0.297</span>
+                </td>
+                <td>
+                  <span>0.286</span>
+                </td>
+                <td>
+                  <span>0.339</span>
+                </td>
+                <td>
+                  <span>0.430</span>
+                </td>
+                <td>
+                  <span>0.240</span>
+                </td>
+                <td>
+                  <span>0.390</span>
+                </td>
+                <td>
+                  <span>0.350</span>
+                </td>
+                <td>
+                  <span>0.325</span>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">SiamGAT</th>
+                <td>
+                  <span>0.311</span>
+                </td>
+                <td>
+                  <span>0.306</span>
+                </td>
+                <td>
+                  <span>0.281</span>
+                </td>
+                <td>
+                  <span>0.251</span>
+                </td>
+                <td>
+                  <span>0.348</span>
+                </td>
+                <td>
+                  <span>0.244</span>
+                </td>
+                <td>
+                  <span>0.276</span>
+                </td>
+                <td>
+                  <span>0.256</span>
+                </td>
+                <td>
+                  <span>0.330</span>
+                </td>
+                <td>
+                  <span>0.196</span>
+                </td>
+                <td>
+                  <span>0.372</span>
+                </td>
+                <td>
+                  <span>0.297</span>
+                </td>
+                <td>
+                  <span>0.254</span>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">HiFT</th>
+                <td>
+                  <span>0.250</span>
+                </td>
+                <td>
+                  <span>0.245</span>
+                </td>
+                <td>
+                  <span>0.223</span>
+                </td>
+                <td>
+                  <span>0.194</span>
+                </td>
+                <td>
+                  <span>0.275</span>
+                </td>
+                <td>
+                  <span>0.192</span>
+                </td>
+                <td>
+                  <span>0.230</span>
+                </td>
+                <td>
+                  <span>0.207</span>
+                </td>
+                <td>
+                  <span>0.293</span>
+                </td>
+                <td>
+                  <span>0.141</span>
+                </td>
+                <td>
+                  <span>0.305</span>
+                </td>
+                <td>
+                  <span>0.265</span>
+                </td>
+                <td>
+                  <span>0.192</span>
+                </td>
+              </tr>
+              <thead></thead>
+              <tr>
+                <th scope="row">GFSDCF</th>
+                <td>
+                  <span class="attribute-table-red">0.417</span>
+                </td>
+                <td>
+                  <span class="attribute-table-red">0.417</span>
+                </td>
+                <td>
+                  <span class="attribute-table-red">0.395</span>
+                </td>
+                <td>
+                  <span class="attribute-table-red">0.356</span>
+                </td>
+                <td>
+                  <span class="attribute-table-red">0.424</span>
+                </td>
+                <td>
+                  <span class="attribute-table-red">0.358</span>
+                </td>
+                <td>
+                  <span class="attribute-table-red">0.341</span>
+                </td>
+                <td>
+                  <span class="attribute-table-red">0.381</span>
+                </td>
+                <td>
+                  <span class="attribute-table-red">0.494</span>
+                </td>
+                <td>
+                  <span class="attribute-table-red">0.300</span>
+                </td>
+                <td>
+                  <span class="attribute-table-red">0.454</span>
+                </td>
+                <td>
+                  <span class="attribute-table-red">0.429</span>
+                </td>
+                <td>
+                  <span class="attribute-table-red">0.360</span>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">ASRCF</th>
+                <td>
+                  <span class="attribute-table-blue">0.328</span>
+                </td>
+                <td>
+                  <span class="attribute-table-blue">0.326</span>
+                </td>
+                <td>
+                  <span class="attribute-table-blue">0.317</span>
+                </td>
+                <td>
+                  <span class="attribute-table-blue">0.257</span>
+                </td>
+                <td>
+                  <span class="attribute-table-blue">0.334</span>
+                </td>
+                <td>
+                  <span class="attribute-table-blue">0.276</span>
+                </td>
+                <td>
+                  <span class="attribute-table-green">0.242</span>
+                </td>
+                <td>
+                  <span class="attribute-table-blue">0.303</span>
+                </td>
+                <td>
+                  <span class="attribute-table-blue">0.431</span>
+                </td>
+                <td>
+                  <span class="attribute-table-blue">0.236</span>
+                </td>
+                <td>
+                  <span class="attribute-table-blue">0.364</span>
+                </td>
+                <td>
+                  <span class="attribute-table-blue">0.346</span>
+                </td>
+                <td>
+                  <span class="attribute-table-blue">0.309</span>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">CF2</th>
+                <td>
+                  <span class="attribute-table-green">0.304</span>
+                </td>
+                <td>
+                  <span class="attribute-table-green">0.294</span>
+                </td>
+                <td>
+                  <span class="attribute-table-green">0.274</span>
+                </td>
+                <td>
+                  <span class="attribute-table-green">0.256</span>
+                </td>
+                <td>
+                  <span class="attribute-table-green">0.308</span>
+                </td>
+                <td>
+                  <span>0.268</span>
+                </td>
+                <td>
+                  <span class="attribute-table-blue">0.247</span>
+                </td>
+                <td>
+                  <span>0.265</span>
+                </td>
+                <td>
+                  <span>0.372</span>
+                </td>
+                <td>
+                  <span>0.215</span>
+                </td>
+                <td>
+                  <span>0.317</span>
+                </td>
+                <td>
+                  <span>0.277</span>
+                </td>
+                <td>
+                  <span>0.288</span>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">ARCF</th>
+                <td>
+                  <span>0.295</span>
+                </td>
+                <td>
+                  <span>0.285</span>
+                </td>
+                <td>
+                  <span>0.273</span>
+                </td>
+                <td>
+                  <span>0.249</span>
+                </td>
+                <td>
+                  <span>0.295</span>
+                </td>
+                <td>
+                  <span class="attribute-table-green">0.271</span>
+                </td>
+                <td>
+                  <span>0.238</span>
+                </td>
+                <td>
+                  <span>0.273</span>
+                </td>
+                <td>
+                  <span>0.376</span>
+                </td>
+                <td>
+                  <span>0.211</span>
+                </td>
+                <td>
+                  <span>0.321</span>
+                </td>
+                <td>
+                  <span>0.274</span>
+                </td>
+                <td>
+                  <span class="attribute-table-green">0.293</span>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">ECO</th>
+                <td>
+                  <span>0.294</span>
+                </td>
+                <td>
+                  <span>0.269</span>
+                </td>
+                <td>
+                  <span>0.268</span>
+                </td>
+                <td>
+                  <span class="attribute-table-green">0.256</span>
+                </td>
+                <td>
+                  <span>0.273</span>
+                </td>
+                <td>
+                  <span>0.250</span>
+                </td>
+                <td>
+                  <span>0.232</span>
+                </td>
+                <td>
+                  <span class="attribute-table-green">0.276</span>
+                </td>
+                <td>
+                  <span>0.336</span>
+                </td>
+                <td>
+                  <span class="attribute-table-green">0.218</span>
+                </td>
+                <td>
+                  <span>0.322</span>
+                </td>
+                <td>
+                  <span>0.283</span>
+                </td>
+                <td>
+                  <span>0.282</span>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">LADCF</th>
+                <td>
+                  <span>0.292</span>
+                </td>
+                <td>
+                  <span>0.273</span>
+                </td>
+                <td>
+                  <span>0.270</span>
+                </td>
+                <td>
+                  <span>0.247</span>
+                </td>
+                <td>
+                  <span>0.294</span>
+                </td>
+                <td>
+                  <span>0.259</span>
+                </td>
+                <td>
+                  <span>0.228</span>
+                </td>
+                <td>
+                  <span>0.270</span>
+                </td>
+                <td>
+                  <span>0.361</span>
+                </td>
+                <td>
+                  <span>0.205</span>
+                </td>
+                <td>
+                  <span class="attribute-table-green">0.326</span>
+                </td>
+                <td>
+                  <span>0.283</span>
+                </td>
+                <td>
+                  <span>0.283</span>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">STRCF</th>
+                <td>
+                  <span>0.286</span>
+                </td>
+                <td>
+                  <span>0.274</span>
+                </td>
+                <td>
+                  <span>0.268</span>
+                </td>
+                <td>
+                  <span>0.240</span>
+                </td>
+                <td>
+                  <span>0.282</span>
+                </td>
+                <td>
+                  <span>0.240</span>
+                </td>
+                <td>
+                  <span>0.220</span>
+                </td>
+                <td>
+                  <span>0.254</span>
+                </td>
+                <td>
+                  <span>0.369</span>
+                </td>
+                <td>
+                  <span>0.213</span>
+                </td>
+                <td>
+                  <span>0.288</span>
+                </td>
+                <td>
+                  <span class="attribute-table-green">0.304</span>
+                </td>
+                <td>
+                  <span>0.241</span>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">MRCF</th>
+                <td>
+                  <span>0.286</span>
+                </td>
+                <td>
+                  <span>0.272</span>
+                </td>
+                <td>
+                  <span>0.271</span>
+                </td>
+                <td>
+                  <span>0.237</span>
+                </td>
+                <td>
+                  <span>0.286</span>
+                </td>
+                <td>
+                  <span>0.258</span>
+                </td>
+                <td>
+                  <span>0.226</span>
+                </td>
+                <td>
+                  <span>0.267</span>
+                </td>
+                <td>
+                  <span>0.367</span>
+                </td>
+                <td>
+                  <span>0.211</span>
+                </td>
+                <td>
+                  <span>0.310</span>
+                </td>
+                <td>
+                  <span>0.270</span>
+                </td>
+                <td>
+                  <span>0.278</span>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">MSCF</th>
+                <td>
+                  <span>0.285</span>
+                </td>
+                <td>
+                  <span>0.278</span>
+                </td>
+                <td>
+                  <span>0.271</span>
+                </td>
+                <td>
+                  <span>0.234</span>
+                </td>
+                <td>
+                  <span>0.289</span>
+                </td>
+                <td>
+                  <span>0.249</span>
+                </td>
+                <td>
+                  <span>0.235</span>
+                </td>
+                <td>
+                  <span>0.256</span>
+                </td>
+                <td>
+                  <span>0.373</span>
+                </td>
+                <td>
+                  <span>0.207</span>
+                </td>
+                <td>
+                  <span>0.297</span>
+                </td>
+                <td>
+                  <span>0.296</span>
+                </td>
+                <td>
+                  <span>0.266</span>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">CFWCR</th>
+                <td>
+                  <span>0.280</span>
+                </td>
+                <td>
+                  <span>0.267</span>
+                </td>
+                <td>
+                  <span>0.252</span>
+                </td>
+                <td>
+                  <span>0.239</span>
+                </td>
+                <td>
+                  <span>0.273</span>
+                </td>
+                <td>
+                  <span>0.251</span>
+                </td>
+                <td>
+                  <span>0.236</span>
+                </td>
+                <td>
+                  <span>0.267</span>
+                </td>
+                <td>
+                  <span class="attribute-table-green">0.381</span>
+                </td>
+                <td>
+                  <span>0.206</span>
+                </td>
+                <td>
+                  <span>0.277</span>
+                </td>
+                <td>
+                  <span>0.300</span>
+                </td>
+                <td>
+                  <span>0.250</span>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">ACSDCF_HC</th>
+                <td>
+                  <span>0.275</span>
+                </td>
+                <td>
+                  <span>0.272</span>
+                </td>
+                <td>
+                  <span>0.256</span>
+                </td>
+                <td>
+                  <span>0.223</span>
+                </td>
+                <td>
+                  <span>0.278</span>
+                </td>
+                <td>
+                  <span>0.226</span>
+                </td>
+                <td>
+                  <span>0.215</span>
+                </td>
+                <td>
+                  <span>0.256</span>
+                </td>
+                <td>
+                  <span class="attribute-table-green">0.381</span>
+                </td>
+                <td>
+                  <span>0.210</span>
+                </td>
+                <td>
+                  <span>0.310</span>
+                </td>
+                <td>
+                  <span>0.287</span>
+                </td>
+                <td>
+                  <span>0.228</span>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">AutoTrack</th>
+                <td>
+                  <span>0.274</span>
+                </td>
+                <td>
+                  <span>0.264</span>
+                </td>
+                <td>
+                  <span>0.252</span>
+                </td>
+                <td>
+                  <span>0.224</span>
+                </td>
+                <td>
+                  <span>0.265</span>
+                </td>
+                <td>
+                  <span>0.241</span>
+                </td>
+                <td>
+                  <span>0.218</span>
+                </td>
+                <td>
+                  <span>0.246</span>
+                </td>
+                <td>
+                  <span>0.349</span>
+                </td>
+                <td>
+                  <span>0.196</span>
+                </td>
+                <td>
+                  <span>0.287</span>
+                </td>
+                <td>
+                  <span>0.260</span>
+                </td>
+                <td>
+                  <span>0.272</span>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">BACF</th>
+                <td>
+                  <span>0.272</span>
+                </td>
+                <td>
+                  <span>0.270</span>
+                </td>
+                <td>
+                  <span>0.254</span>
+                </td>
+                <td>
+                  <span>0.209</span>
+                </td>
+                <td>
+                  <span>0.258</span>
+                </td>
+                <td>
+                  <span>0.243</span>
+                </td>
+                <td>
+                  <span>0.194</span>
+                </td>
+                <td>
+                  <span>0.250</span>
+                </td>
+                <td>
+                  <span>0.375</span>
+                </td>
+                <td>
+                  <span>0.202</span>
+                </td>
+                <td>
+                  <span>0.248</span>
+                </td>
+                <td>
+                  <span>0.286</span>
+                </td>
+                <td>
+                  <span>0.265</span>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">Staple</th>
+                <td>
+                  <span>0.265</span>
+                </td>
+                <td>
+                  <span>0.271</span>
+                </td>
+                <td>
+                  <span>0.252</span>
+                </td>
+                <td>
+                  <span>0.207</span>
+                </td>
+                <td>
+                  <span>0.266</span>
+                </td>
+                <td>
+                  <span>0.228</span>
+                </td>
+                <td>
+                  <span>0.217</span>
+                </td>
+                <td>
+                  <span>0.236</span>
+                </td>
+                <td>
+                  <span>0.368</span>
+                </td>
+                <td>
+                  <span>0.183</span>
+                </td>
+                <td>
+                  <span>0.304</span>
+                </td>
+                <td>
+                  <span>0.284</span>
+                </td>
+                <td>
+                  <span>0.248</span>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">DRCF</th>
+                <td>
+                  <span>0.257</span>
+                </td>
+                <td>
+                  <span>0.247</span>
+                </td>
+                <td>
+                  <span>0.255</span>
+                </td>
+                <td>
+                  <span>0.209</span>
+                </td>
+                <td>
+                  <span>0.246</span>
+                </td>
+                <td>
+                  <span>0.226</span>
+                </td>
+                <td>
+                  <span>0.190</span>
+                </td>
+                <td>
+                  <span>0.229</span>
+                </td>
+                <td>
+                  <span>0.318</span>
+                </td>
+                <td>
+                  <span>0.187</span>
+                </td>
+                <td>
+                  <span>0.254</span>
+                </td>
+                <td>
+                  <span>0.211</span>
+                </td>
+                <td>
+                  <span>0.255</span>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">SAMF</th>
+                <td>
+                  <span>0.243</span>
+                </td>
+                <td>
+                  <span>0.241</span>
+                </td>
+                <td>
+                  <span>0.231</span>
+                </td>
+                <td>
+                  <span>0.185</span>
+                </td>
+                <td>
+                  <span>0.231</span>
+                </td>
+                <td>
+                  <span>0.216</span>
+                </td>
+                <td>
+                  <span>0.197</span>
+                </td>
+                <td>
+                  <span>0.200</span>
+                </td>
+                <td>
+                  <span>0.332</span>
+                </td>
+                <td>
+                  <span>0.176</span>
+                </td>
+                <td>
+                  <span>0.252</span>
+                </td>
+                <td>
+                  <span>0.236</span>
+                </td>
+                <td>
+                  <span>0.246</span>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">SRDCF</th>
+                <td>
+                  <span>0.228</span>
+                </td>
+                <td>
+                  <span>0.220</span>
+                </td>
+                <td>
+                  <span>0.215</span>
+                </td>
+                <td>
+                  <span>0.200</span>
+                </td>
+                <td>
+                  <span>0.209</span>
+                </td>
+                <td>
+                  <span>0.204</span>
+                </td>
+                <td>
+                  <span>0.196</span>
+                </td>
+                <td>
+                  <span>0.205</span>
+                </td>
+                <td>
+                  <span>0.295</span>
+                </td>
+                <td>
+                  <span>0.177</span>
+                </td>
+                <td>
+                  <span>0.215</span>
+                </td>
+                <td>
+                  <span>0.232</span>
+                </td>
+                <td>
+                  <span>0.232</span>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">DSST</th>
+                <td>
+                  <span>0.224</span>
+                </td>
+                <td>
+                  <span>0.224</span>
+                </td>
+                <td>
+                  <span>0.213</span>
+                </td>
+                <td>
+                  <span>0.179</span>
+                </td>
+                <td>
+                  <span>0.224</span>
+                </td>
+                <td>
+                  <span>0.182</span>
+                </td>
+                <td>
+                  <span>0.171</span>
+                </td>
+                <td>
+                  <span>0.213</span>
+                </td>
+                <td>
+                  <span>0.317</span>
+                </td>
+                <td>
+                  <span>0.180</span>
+                </td>
+                <td>
+                  <span>0.213</span>
+                </td>
+                <td>
+                  <span>0.227</span>
+                </td>
+                <td>
+                  <span>0.193</span>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">DSARCF</th>
+                <td>
+                  <span>0.222</span>
+                </td>
+                <td>
+                  <span>0.218</span>
+                </td>
+                <td>
+                  <span>0.213</span>
+                </td>
+                <td>
+                  <span>0.189</span>
+                </td>
+                <td>
+                  <span>0.201</span>
+                </td>
+                <td>
+                  <span>0.203</span>
+                </td>
+                <td>
+                  <span>0.180</span>
+                </td>
+                <td>
+                  <span>0.194</span>
+                </td>
+                <td>
+                  <span>0.293</span>
+                </td>
+                <td>
+                  <span>0.173</span>
+                </td>
+                <td>
+                  <span>0.203</span>
+                </td>
+                <td>
+                  <span>0.213</span>
+                </td>
+                <td>
+                  <span>0.229</span>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">KCF</th>
+                <td>
+                  <span>0.212</span>
+                </td>
+                <td>
+                  <span>0.208</span>
+                </td>
+                <td>
+                  <span>0.205</span>
+                </td>
+                <td>
+                  <span>0.179</span>
+                </td>
+                <td>
+                  <span>0.207</span>
+                </td>
+                <td>
+                  <span>0.180</span>
+                </td>
+                <td>
+                  <span>0.172</span>
+                </td>
+                <td>
+                  <span>0.186</span>
+                </td>
+                <td>
+                  <span>0.305</span>
+                </td>
+                <td>
+                  <span>0.171</span>
+                </td>
+                <td>
+                  <span>0.244</span>
+                </td>
+                <td>
+                  <span>0.221</span>
+                </td>
+                <td>
+                  <span>0.197</span>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">SKSCF</th>
+                <td>
+                  <span>0.209</span>
+                </td>
+                <td>
+                  <span>0.215</span>
+                </td>
+                <td>
+                  <span>0.205</span>
+                </td>
+                <td>
+                  <span>0.175</span>
+                </td>
+                <td>
+                  <span>0.206</span>
+                </td>
+                <td>
+                  <span>0.184</span>
+                </td>
+                <td>
+                  <span>0.187</span>
+                </td>
+                <td>
+                  <span>0.170</span>
+                </td>
+                <td>
+                  <span>0.285</span>
+                </td>
+                <td>
+                  <span>0.166</span>
+                </td>
+                <td>
+                  <span>0.217</span>
+                </td>
+                <td>
+                  <span>0.225</span>
+                </td>
+                <td>
+                  <span>0.196</span>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">fDSST</th>
+                <td>
+                  <span>0.205</span>
+                </td>
+                <td>
+                  <span>0.198</span>
+                </td>
+                <td>
+                  <span>0.202</span>
+                </td>
+                <td>
+                  <span>0.168</span>
+                </td>
+                <td>
+                  <span>0.183</span>
+                </td>
+                <td>
+                  <span>0.169</span>
+                </td>
+                <td>
+                  <span>0.169</span>
+                </td>
+                <td>
+                  <span>0.172</span>
+                </td>
+                <td>
+                  <span>0.271</span>
+                </td>
+                <td>
+                  <span>0.167</span>
+                </td>
+                <td>
+                  <span>0.206</span>
+                </td>
+                <td>
+                  <span>0.225</span>
+                </td>
+                <td>
+                  <span>0.202</span>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">CSK</th>
+                <td>
+                  <span>0.164</span>
+                </td>
+                <td>
+                  <span>0.165</span>
+                </td>
+                <td>
+                  <span>0.162</span>
+                </td>
+                <td>
+                  <span>0.136</span>
+                </td>
+                <td>
+                  <span>0.156</span>
+                </td>
+                <td>
+                  <span>0.135</span>
+                </td>
+                <td>
+                  <span>0.135</span>
+                </td>
+                <td>
+                  <span>0.171</span>
+                </td>
+                <td>
+                  <span>0.251</span>
+                </td>
+                <td>
+                  <span>0.132</span>
+                </td>
+                <td>
+                  <span>0.179</span>
+                </td>
+                <td>
+                  <span>0.187</span>
+                </td>
+                <td>
+                  <span>0.171</span>
+                </td>
+              </tr>
+
+              
+            </tbody>
+          </table>
+        </div>
     </div>
 
 
