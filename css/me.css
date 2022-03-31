@@ -90,4 +90,10 @@
     .attribute-table-blue{
         color: blue;
     }
+    .BoundingLine-HiFt{
+        border-bottom: 2px solid black;
+    }
+    .BoundingLine-Thead{
+        border-top: 2px solid black;
+    }
   </style>
