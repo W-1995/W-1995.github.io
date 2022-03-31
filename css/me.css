@@ -46,12 +46,30 @@
           height: 340px;
       }
       .attribute-img  img{
-          border: 1px solid blue;
+          /* border: 1px solid blue; */
       }
       .attribute-img div{
           text-align: center;
       }
       .attribute-img span{
           font-size: 30px;
+      }
+      .Sequence-name{
+          font-size: 15px;
+          color:blue;
+          font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+          /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+      }
+      .Sequence-attribute{
+          color: darkgray;
+          font-size: 10px;
+      }
+      .th-css{
+          text-align: center;
+      }
+      .attribute-css{
+          /* color: red; */
+          text-align: center;
       }
   </style>
