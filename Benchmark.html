@@ -81,1154 +81,1192 @@
 
     </div>
     <!-- 主体 -->
-    <div class="container body-body " style="border: 1px solid blue;">
-        <h1 class="pt-2">Datasets</h1>
+    <div class="container body-body ">
+        <!-- 下载链接 -->
+        <h1 class="pt-2 h1-2">Tracker benchmark data</h1>
         <hr/>
-        <span>The full benchmark contains 206 sequences.<br/></span>
-        <!-- <span>Join visual-tracking Google groups for further updates, discussions, or QnAs<br/></span> -->
-
+        <sapn style="margin-left: 50px;">Because our data sets is too large, it is divided into three parts in Google Drive:(<b>WATB_part1.zip、</b><b>WATB_part2.zip、</b><b>WATB_part3.zip、</b>)<br/></sapn>
+        <sapn style="margin-left: 50px;">Challenge attribute set in Google Drive:(<b>WATB_attribute_files.rar</b>)</sapn>
         <ul style="padding-left: 100px;">
-          <li>The sequence names are in Upper Camel Case</li>
-          <li>Each row in the ground-truth files represents the bounding box of the target in that frame,(x, y, box-width, box-height).</li>
-          <li>In sequences the first row corresponds to the first frame and the last row to the last frame</li>
+          <li>
+            <a href="https://drive.google.com/file/d/1QekHTqeO4xXOVTRKZWkzAzBt9aOSMVFR/view?usp=sharing"  target="_blank">
+              <b>
+                <font style="vertical-align: inherit;">WATB_part1.zip</font>
+              </b>
+            </a>
+          </li>
+          <li>
+            <a href="https://drive.google.com/file/d/1gjcDp_fzUr5OOZ51TekZY6K7ySv8HnGg/view?usp=sharing"  target="_blank">
+              <b>
+                <font style="vertical-align: inherit;">WATB_part2.zip</font>
+              </b>
+            </a>
+          </li>
+          <li>
+            <a href="https://drive.google.com/file/d/1NOxPRK5L-kSx9zS6Yqof84w1FpOm7B0N/view?usp=sharing"  target="_blank">
+              <b>
+                <font style="vertical-align: inherit;">WATB_part3.zip</font>
+              </b>
+            </a>
+          </li>
+          <li>
+            <a href="https://drive.google.com/file/d/1HxXTKD9KjZDHw6h7Q768e39UySekDPpB/view?usp=sharing"  target="_blank">
+              <b>
+                <font style="vertical-align: inherit;">WATB_attribute_files.rar</font>
+              </b>
+            </a>
+          </li>
+        </ul>
+        <sapn style="margin-left: 50px;">And You can download data sets in Baidu Netdisk:</sapn>
+        <ul style="padding-left: 100px;">
+          <li>
+            <a href="https://pan.baidu.com/s/1a6ITsoUJUqQXmuHbhj5oiw" target="_blank">
+              <b>
+                <font style="vertical-align: inherit;">WATB.rar</font>
+              </b>
+            </a>
+          </li>
         </ul>
         <!-- 显示206个数据集 -->
         <h1 class="pt-2 h1-2">TB-206</h1>
         <hr/>
+        <span>WATB contains 206 video sequences which covers different kinds of animals from land, sea and sky.Details are as follows:</span>
+        <br/>
+        <br/>
         <div class="container">
             <!-- 第 1 行 -->
-            <div class="row">
-                <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
+            <div class="row attribute-div">
+                <div class="col-sm-2  benchmark-div" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/AcanthopagrusSchlegelii1_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>AcanthopagrusSchlegelii1</span>
-                    <span>IV,OPR,POC,FOC,LR,SOB</span>
+                    <span class="Sequence-name">AcanthopagrusSchlegelii1</span>
+                    <span class="Sequence-attribute">IV,OPR,POC,FOC,LR,SOB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/AcanthopagrusSchlegelii2_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>AcanthopagrusSchlegelii2</span>
-                    <span>OPR,DEF,FM,POC,SOB</span>
+                    <span class="Sequence-name">AcanthopagrusSchlegelii2</span>
+                    <span class="Sequence-attribute">OPR,DEF,FM,POC,SOB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Acanthuridae_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Acanthuridae</span>
-                    <span>IV,OPR,SV,POC,SOB</span>
+                    <span class="Sequence-name">Acanthuridae</span>
+                    <span class="Sequence-attribute">IV,OPR,SV,POC,SOB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/AcridotheresCristatellus_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>AcridotheresCristatellus</span>
-                    <span>OPR,IPR,FM,SV,OV,POC,FOC<br/>LR,SOB,MB</span>
+                    <span class="Sequence-name">AcridotheresCristatellus</span>
+                    <span class="Sequence-attribute">OPR,IPR,FM,SV,OV,POC,FOC<br/>LR,SOB,MB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/AmericanLion_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>AmericanLion</span>
-                    <span>DEF,FM,SV,OV,MB</span>
+                    <span class="Sequence-name">AmericanLion</span>
+                    <span class="Sequence-attribute">DEF,FM,SV,OV,MB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/AmydaSincnsis_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>AmydaSincnsis</span>
-                    <span>IPR,DEF,FM,SV,CM,POC,FOC<br/>LR</span>
+                    <span class="Sequence-name">AmydaSincnsis</span>
+                    <span class="Sequence-attribute">IPR,DEF,FM,SV,CM,POC,FOC<br/>LR</span>
                 </div>
             </div>
             <!-- 第 2 行 -->
             <div class="row">
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Angelfish_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Angelfish</span>
-                    <span>OPR,DEF,SV,POC</span>
+                    <span class="Sequence-name">Angelfish</span>
+                    <span class="Sequence-attribute">OPR,DEF,SV,POC</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Avocet_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Avocet<br/></span>
-                    <span>OPR,DEF,SV,POC,FOC,SOB</span>
+                    <span class="Sequence-name">Avocet<br/></span>
+                    <span class="Sequence-attribute">OPR,DEF,SV,POC,FOC,SOB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Avocet1_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Avocet1<br/></span>
-                    <span>OPR,DEF,FM,SV,CM,POC,SOB</span>
+                    <span class="Sequence-name">Avocet1<br/></span>
+                    <span class="Sequence-attribute">OPR,DEF,FM,SV,CM,POC,SOB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Babybird_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Babybird</span>
-                    <span>OPR,DEF,SOB,MB</span>
+                    <span class="Sequence-name">Babybird</span>
+                    <span class="Sequence-attribute">OPR,DEF,SOB,MB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/BabyCuculidae_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>BabyCuculidae</span>
-                    <span>IV,OPR,POC,FOC,MB</span>
+                    <span class="Sequence-name">BabyCuculidae</span>
+                    <span class="Sequence-attribute">IV,OPR,POC,FOC,MB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/BabyLion_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>BabyLion</span>
-                    <span>OPR,DEF,FM,SV,CM,POC,SOB</span>
+                    <span class="Sequence-name">BabyLion</span>
+                    <span class="Sequence-attribute">OPR,DEF,FM,SV,CM,POC,SOB</span>
                 </div>
             </div>
             <!-- 第 3 行 -->
             <div class="row">
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Bat_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Bat<br/></span>
-                    <span>IV,OPR,IPR,FM,SV,POC,FOC</span>
+                    <span class="Sequence-name">Bat<br/></span>
+                    <span class="Sequence-attribute">IV,OPR,IPR,FM,SV,POC,FOC</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Bear_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Bear<br/></span>
-                    <span>OPR,FM,SV,CM,OV,POC,FOC<br/>LR,MB</span>
+                    <span class="Sequence-name">Bear<br/></span>
+                    <span class="Sequence-attribute">OPR,FM,SV,CM,OV,POC,FOC<br/>LR,MB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Bear1_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Bear1<br/></span>
-                    <span>OPR,DEF,SV,LR</span>
+                    <span class="Sequence-name">Bear1<br/></span>
+                    <span class="Sequence-attribute">OPR,DEF,SV,LR</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/BirdGroup1_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>BirdGroup1<br/></span>
-                    <span>IV,IPR,LR,SOB</span>
+                    <span class="Sequence-name">BirdGroup1<br/></span>
+                    <span class="Sequence-attribute">IV,IPR,LR,SOB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/BirdGroup2_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>BirdGroup2<br/></span>
-                    <span>LR,SOB</span>
+                    <span class="Sequence-name">BirdGroup2<br/></span>
+                    <span class="Sequence-attribute">LR,SOB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Bison_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Bison<br/></span>
-                    <span>OPR,IPR,SV,POC,LR</span>
+                    <span class="Sequence-name">Bison<br/></span>
+                    <span class="Sequence-attribute">OPR,IPR,SV,POC,LR</span>
                 </div>
             </div>
             <!-- 第 4 行 -->
             <div class="row">
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Boar_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Boar<br/></span>
-                    <span>FM,SV,CM</span>
+                    <span class="Sequence-name">Boar<br/></span>
+                    <span class="Sequence-attribute">FM,SV,CM</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/BosGaurus_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>BosGaurus</span>
-                    <span>FM,SV,LR</span>
+                    <span class="Sequence-name">BosGaurus</span>
+                    <span class="Sequence-attribute">FM,SV,LR</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Caracal_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Caracal<br/></span>
-                    <span>FM,SV,OV</span>
+                    <span class="Sequence-name">Caracal<br/></span>
+                    <span class="Sequence-attribute">FM,SV,OV</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Caranx_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Caranx<br/></span>
-                    <span>SV,POC,FOC,SOB</span>
+                    <span class="Sequence-name">Caranx<br/></span>
+                    <span class="Sequence-attribute">SV,POC,FOC,SOB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Cheetah1_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Cheetah1</span>
-                    <span>DEF,FM,SV,FOC,LR</span>
+                    <span class="Sequence-name">Cheetah1</span>
+                    <span class="Sequence-attribute">DEF,FM,SV,FOC,LR</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Cheetah2_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Cheetah2</span>
-                    <span>OPR,IPR,DEF,FM,SV,CM,FOC<br/>LR</span>
+                    <span class="Sequence-name">Cheetah2</span>
+                    <span class="Sequence-attribute">OPR,IPR,DEF,FM,SV,CM,FOC<br/>LR</span>
                 </div>
             </div>
             <!-- 第 5 行 -->
             <div class="row">
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/CheilinusFasciatus_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>CheilinusFasciatus</span>
-                    <span>IV,OPR,DEF,FM,SV,OV,POC<br/>LR,SOB</span>
+                    <span class="Sequence-name">CheilinusFasciatus</span>
+                    <span class="Sequence-attribute">IV,OPR,DEF,FM,SV,OV,POC<br/>LR,SOB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/ChlamydotisMacqueeni_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>ChlamydotisMacqueeni</span>
-                    <span>IV,OPR,DEF,FM,SV,CM,POC<br/>FOC,LR,MB</span>
+                    <span class="Sequence-name">ChlamydotisMacqueeni</span>
+                    <span class="Sequence-attribute">IV,OPR,DEF,FM,SV,CM,POC<br/>FOC,LR,MB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/ChoerodonSchoenleinii_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>ChoerodonSchoenleinii</span>
-                    <span>IV,OPR,IPR,DEF,SV,POC</span>
+                    <span class="Sequence-name">ChoerodonSchoenleinii</span>
+                    <span class="Sequence-attribute">IV,OPR,IPR,DEF,SV,POC</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/ChrysolophusPictus_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>ChrysolophusPictus</span>
-                    <span>OPR,IPR,DEF,FM,SV,CM,OV<br/>POC,FOC,LR,SOB,MB</span>
+                    <span class="Sequence-name">ChrysolophusPictus</span>
+                    <span class="Sequence-attribute">OPR,IPR,DEF,FM,SV,CM,OV<br/>POC,FOC,LR,SOB,MB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/CichlasomaManaguense_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>CichlasomaManaguense</span>
-                    <span>OPR,SV</span>
+                    <span class="Sequence-name">CichlasomaManaguense</span>
+                    <span class="Sequence-attribute">OPR,SV</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Clownfish1_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Clownfish1</span>
-                    <span>OPR,IPR,DEF,FM,SV,CM,POC<br/>FOC,LR,SOB</span>
+                    <span class="Sequence-name">Clownfish1</span>
+                    <span class="Sequence-attribute">OPR,IPR,DEF,FM,SV,CM,POC<br/>FOC,LR,SOB</span>
                 </div>
             </div>
             <!-- 第 6 行 -->
             <div class="row">
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Clownfish2_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Clownfish2<br/></span>
-                    <span>FM,SV,LR,SOB</span>
+                    <span class="Sequence-name">Clownfish2<br/></span>
+                    <span class="Sequence-attribute">FM,SV,LR,SOB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Clownfish3_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Clownfish3</span>
-                    <span>OPR,SV,POC,FOC,LR</span>
+                    <span class="Sequence-name">Clownfish3</span>
+                    <span class="Sequence-attribute">OPR,SV,POC,FOC,LR</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Clownfish4_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Clownfish4</span>
-                    <span>OPR,SV,POC,SOB</span>
+                    <span class="Sequence-name">Clownfish4</span>
+                    <span class="Sequence-attribute">OPR,SV,POC,SOB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Clownfish5_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Clownfish5</span>
-                    <span>OPR,FM,SV,OV,POC,FOC<br/>LR,SOB</span>
+                    <span class="Sequence-name">Clownfish5</span>
+                    <span class="Sequence-attribute">OPR,FM,SV,OV,POC,FOC<br/>LR,SOB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Clownfish6_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Clownfish6</span>
-                    <span>OPR,IPR,DEF,SV,LR</span>
+                    <span class="Sequence-name">Clownfish6</span>
+                    <span class="Sequence-attribute">OPR,IPR,DEF,SV,LR</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Clownfish7_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Clownfish7</span>
-                    <span>OPR,IPR,DEF,FM,SV,CM,POC<br/>SOB</span>
+                    <span class="Sequence-name">Clownfish7</span>
+                    <span class="Sequence-attribute">OPR,IPR,DEF,FM,SV,CM,POC<br/>SOB</span>
                 </div>
             </div>
             <!-- 第 7 行 -->
             <div class="row">
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Clownfish8_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Clownfish8</span>
-                    <span>OPR,IPR,SV,POC,SOB</span>
+                    <span class="Sequence-name">Clownfish8</span>
+                    <span class="Sequence-attribute">OPR,IPR,SV,POC,SOB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Clownfish9_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Clownfish9</span>
-                    <span>OPR,DEF,SV,POC,SOB</span>
+                    <span class="Sequence-name">Clownfish9</span>
+                    <span class="Sequence-attribute">OPR,DEF,SV,POC,SOB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Cormorant_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Cormorant</span>
-                    <span>FM,SV,CM,LR</span>
+                    <span class="Sequence-name">Cormorant</span>
+                    <span class="Sequence-attribute">FM,SV,CM,LR</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Crane_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Crane<br/></span>
-                    <span>OPR,FM,SV,CM,LR,MB</span>
+                    <span class="Sequence-name">Crane<br/></span>
+                    <span class="Sequence-attribute">OPR,FM,SV,CM,LR,MB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Cricket_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Cricket<br/></span>
-                    <span>OPR,DEF,SV,OV,SOB</span>
+                    <span class="Sequence-name">Cricket<br/></span>
+                    <span class="Sequence-attribute">OPR,DEF,SV,OV,SOB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Crow1_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Crow1<br/></span>
-                    <span>FM,SV,POC</span>
+                    <span class="Sequence-name">Crow1<br/></span>
+                    <span class="Sequence-attribute">FM,SV,POC</span>
                 </div>
             </div>
             <!-- 第 8 行 -->
             <div class="row">
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Crow2_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Crow2<br/></span>
-                    <span>IV,OPR,IPR,DEF,FM,SV,OV<br/>POC,FOC,LR,MB</span>
+                    <span class="Sequence-name">Crow2<br/></span>
+                    <span class="Sequence-attribute">IV,OPR,IPR,DEF,FM,SV,OV<br/>POC,FOC,LR,MB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Cuttlefish_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Cuttlefish</span>
-                    <span>OPR,IPR,DEF,SV,CM,OV,POC<br/>SOB,MB</span>
+                    <span class="Sequence-name">Cuttlefish</span>
+                    <span class="Sequence-attribute">OPR,IPR,DEF,SV,CM,OV,POC<br/>SOB,MB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/DartFrog_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>DartFrog<br/></span>
-                    <span>FM,SV</span>
+                    <span class="Sequence-name">DartFrog<br/></span>
+                    <span class="Sequence-attribute">FM,SV</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Deer_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Deer<br/></span>
-                    <span>IV,OPR,IPR,FM,SV,POC,FOC<br/>LR,SOB</span>
+                    <span class="Sequence-name">Deer<br/></span>
+                    <span class="Sequence-attribute">IV,OPR,IPR,FM,SV,POC,FOC<br/>LR,SOB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Eagle_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Eagle<br/></span>
-                    <span>OPR,FM</span>
+                    <span class="Sequence-name">Eagle<br/></span>
+                    <span class="Sequence-attribute">OPR,FM</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Eagle2_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Eagle2<br/></span>
-                    <span>OPR,IPR,FM,SV,OV,POC,FOC<br/>LR,MB</span>
+                    <span class="Sequence-name">Eagle2<br/></span>
+                    <span class="Sequence-attribute">OPR,IPR,FM,SV,OV,POC,FOC<br/>LR,MB</span>
                 </div>
             </div>
             <!-- 第 9 行 -->
             <div class="row">
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/EstuarineCrocodile_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>EstuarineCrocodile</span>
-                    <span>FM,SV,CM,POC,LR</span>
+                    <span class="Sequence-name">EstuarineCrocodile</span>
+                    <span class="Sequence-attribute">FM,SV,CM,POC,LR</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/FairyWren_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>FairyWren</span>
-                    <span>OPR,SV,SOB,MB</span>
+                    <span class="Sequence-name">FairyWren</span>
+                    <span class="Sequence-attribute">OPR,SV,SOB,MB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/FakePenguin_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>FakePenguin</span>
-                    <span>OPR,IPR,FM,SV,CM,POC,FOC<br/>SOB</span>
+                    <span class="Sequence-name">FakePenguin</span>
+                    <span class="Sequence-attribute">OPR,IPR,FM,SV,CM,POC,FOC<br/>SOB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Falcon_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Falcon<br/></span>
-                    <span>OPR,FM,SV,CM,FOC,LR,SOB</span>
+                    <span class="Sequence-name">Falcon<br/></span>
+                    <span class="Sequence-attribute">OPR,FM,SV,CM,FOC,LR,SOB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/FireDove_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>FireDove</span>
-                    <span>OPR,IPR,DEF,FM,SV,POC,SOB</span>
+                    <span class="Sequence-name">FireDove</span>
+                    <span class="Sequence-attribute">OPR,IPR,DEF,FM,SV,POC,SOB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/FishCrowd2_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>FishCrowd2</span>
-                    <span>IV,OPR,SV,LR,SOB</span>
+                    <span class="Sequence-name">FishCrowd2</span>
+                    <span class="Sequence-attribute">IV,OPR,SV,LR,SOB</span>
                 </div>
             </div>
             <!-- 第 10 行 -->
             <div class="row">
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Fox_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Fox<br/></span>
-                    <span>IV,OPR,DEF,FM,SV,POC,FOC<br/>MB</span>
+                    <span class="Sequence-name">Fox<br/></span>
+                    <span class="Sequence-attribute">IV,OPR,DEF,FM,SV,POC,FOC<br/>MB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Foxes_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Foxes<br/></span>
-                    <span>OPR,SV,POC,SOB</span>
+                    <span class="Sequence-name">Foxes<br/></span>
+                    <span class="Sequence-attribute">OPR,SV,POC,SOB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Frog1_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Frog1<br/></span>
-                    <span>OPR,IPR,SV,POC</span>
+                    <span class="Sequence-name">Frog1<br/></span>
+                    <span class="Sequence-attribute">OPR,IPR,SV,POC</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Frog2_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Frog2<br/></span>
-                    <span>IV,IPR,DEF,FM,SV,CM,MB</span>
+                    <span class="Sequence-name">Frog2<br/></span>
+                    <span class="Sequence-attribute">IV,IPR,DEF,FM,SV,CM,MB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/FulicaAtra_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>FulicaAtra</span>
-                    <span>OPR,IPR,DEF,FM,CM,POC</span>
+                    <span class="Sequence-name">FulicaAtra</span>
+                    <span class="Sequence-attribute">OPR,IPR,DEF,FM,CM,POC</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Gazelle1_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Gazelle1<br/></span>
-                    <span>OPR,DEF,FM,SV,CM,OV,LR,MB</span>
+                    <span class="Sequence-name">Gazelle1<br/></span>
+                    <span class="Sequence-attribute">OPR,DEF,FM,SV,CM,OV,LR,MB</span>
                 </div>
             </div>
             <!-- 第 11 行 -->
             <div class="row">
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Gazelle2_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Gazelle2<br/></span>
-                    <span>OPR,IPR,DEF,FM,SV,CM,POC<br/>FOC,LR,MB</span>
+                    <span class="Sequence-name">Gazelle2<br/></span>
+                    <span class="Sequence-attribute">OPR,IPR,DEF,FM,SV,CM,POC<br/>FOC,LR,MB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Giraffe_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Giraffe<br/></span>
-                    <span>OPR,FM,SV,CM,POC,FOC,LR</span>
+                    <span class="Sequence-name">Giraffe<br/></span>
+                    <span class="Sequence-attribute">OPR,FM,SV,CM,POC,FOC,LR</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/GoldenEagle_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>GoldenEagle</span>
-                    <span>OPR,FM,SV,CM,POC,FOC,LR<br/>SOB,MB</span>
+                    <span class="Sequence-name">GoldenEagle</span>
+                    <span class="Sequence-attribute">OPR,FM,SV,CM,POC,FOC,LR<br/>SOB,MB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/GoldenMonkey1_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>GoldenMonkey1</span>
-                    <span>OPR,SV,POC,FOC,LR</span>
+                    <span class="Sequence-name">GoldenMonkey1</span>
+                    <span class="Sequence-attribute">OPR,SV,POC,FOC,LR</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/GoldenMonkey2_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>GoldenMonkey2<br></span>
-                    <span>SV,POC</span>
+                    <span class="Sequence-name">GoldenMonkey2<br></span>
+                    <span class="Sequence-attribute">SV,POC</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/GrandCanyon_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>GrandCanyon</span>
-                    <span>OPR,DEF,FM,SV,CM,POC,FOC<br/>MB</span>
+                    <span class="Sequence-name">GrandCanyon</span>
+                    <span class="Sequence-attribute">OPR,DEF,FM,SV,CM,POC,FOC<br/>MB</span>
                 </div>
             </div>
             <!-- 第 12 行 -->
             <div class="row">
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Grebe1_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Grebe1<br/></span>
-                    <span>OPR,IPR,SV,OV,POC,SOB,MB</span>
+                    <span class="Sequence-name">Grebe1<br/></span>
+                    <span class="Sequence-attribute">OPR,IPR,SV,OV,POC,SOB,MB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Grebe2_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Grebe2<br/></span>
-                    <span>OPR,DEF,SV,LR,SOB,MB</span>
+                    <span class="Sequence-name">Grebe2<br/></span>
+                    <span class="Sequence-attribute">OPR,DEF,SV,LR,SOB,MB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Grebe3_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Grebe3<br/></span>
-                    <span>OPR,FM,SV,OV,POC,LR,SOB</span>
+                    <span class="Sequence-name">Grebe3<br/></span>
+                    <span class="Sequence-attribute">OPR,FM,SV,OV,POC,LR,SOB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Grebe4_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Grebe4<br/></span>
-                    <span>OPR,DEF</span>
+                    <span class="Sequence-name">Grebe4<br/></span>
+                    <span class="Sequence-attribute">OPR,DEF</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/GreyHeron_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>GreyHeron</span>
-                    <span>OPR,DEF,FM,SV,POC,MB</span>
+                    <span class="Sequence-name">GreyHeron</span>
+                    <span class="Sequence-attribute">OPR,DEF,FM,SV,POC,MB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Guillemot_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Guillemot</span>
-                    <span>IV,OPR,IPR,DEF,FM,SV,CM,OV<br/>POC,FOC,LR,MB</span>
+                    <span class="Sequence-name">Guillemot</span>
+                    <span class="Sequence-attribute">IV,OPR,IPR,DEF,FM,SV,CM,OV<br/>POC,FOC,LR,MB</span>
                 </div>
             </div>
             <!-- 第 13 行 -->
             <div class="row">
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Gull1_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Gull1<br/></span>
-                    <span>OPR,SV,CM,POC,FOC,LR</span>
+                    <span class="Sequence-name">Gull1<br/></span>
+                    <span class="Sequence-attribute">OPR,SV,CM,POC,FOC,LR</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Gull2_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Gull2<br/></span>
-                    <span>IV,OPR,DEF,FM,SV,POC,MB</span>
+                    <span class="Sequence-name">Gull2<br/></span>
+                    <span class="Sequence-attribute">IV,OPR,DEF,FM,SV,POC,MB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/HalcyonPileata_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>HalcyonPileata</span>
-                    <span>OPR,DEF,SV</span>
+                    <span class="Sequence-name">HalcyonPileata<br/></span>
+                    <span class="Sequence-attribute">OPR,DEF,SV</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Hare_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Hare<br/></span>
-                    <span>OPR,DEF,FM,SV,CM,POC,LR<br/>MB</span>
+                    <span class="Sequence-name">Hare<br/></span>
+                    <span class="Sequence-attribute">OPR,DEF,FM,SV,CM,POC,LR<br/>MB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Hedgehog_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Hedgehog</span>
-                    <span>IV,OPR,FM,SV,CM,OV,LR,MB</span>
+                    <span class="Sequence-name">Hedgehog</span>
+                    <span class="Sequence-attribute">IV,OPR,FM,SV,CM,OV,LR,MB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Heron1_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Heron1<br/></span>
-                    <span>IV,OPR,IPR,DEF,FM,SV,CM,LR<br/>MB</span>
+                    <span class="Sequence-name">Heron1<br/></span>
+                    <span class="Sequence-attribute">IV,OPR,IPR,DEF,FM,SV,CM,LR<br/>MB</span>
                 </div>
             </div>
             <!-- 第 14 行 -->
             <div class="row">
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Heron2_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Heron2<br/></span>
-                    <span>IV,OPR,FM,SV,CM,POC,FOC</span>
+                    <span class="Sequence-name">Heron2<br/></span>
+                    <span class="Sequence-attribute">IV,OPR,FM,SV,CM,POC,FOC</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Heron3_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Heron3<br/></span>
-                    <span>OPR,DEF,SV,POC,MB</span>
+                    <span class="Sequence-name">Heron3<br/></span>
+                    <span class="Sequence-attribute">OPR,DEF,SV,POC,MB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/HolacanthusBermudensis_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>HolacanthusBermudensis</span>
-                    <span>IV,OPR,DEF,SV,POC,</span>
+                    <span class="Sequence-name">HolacanthusBermudensis</span>
+                    <span class="Sequence-attribute">IV,OPR,DEF,SV,POC,</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Hyena1_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Hyena1<br/></span>
-                    <span>OPR,DEF,FM,SV,OV,POC,FOC<br/>LR,MB</span>
+                    <span class="Sequence-name">Hyena1<br/></span>
+                    <span class="Sequence-attribute">OPR,DEF,FM,SV,OV,POC,FOC<br/>LR,MB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Hyena3_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Hyena3<br/></span>
-                    <span>IV,OPR,DEF,FM,SV,CM,OV<br/>POC,FOC,LR,MB</span>
+                    <span  class="Sequence-name">Hyena3<br/></span>
+                    <span class="Sequence-attribute">IV,OPR,DEF,FM,SV,CM,OV<br/>POC,FOC,LR,MB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/HyenaCub_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>HyenaCub</span>
-                    <span>OPR,DEF,FM,SV,CM,OV,POC<br/>FOC,LR,SOB,MB</span>
+                    <span  class="Sequence-name">HyenaCub</span>
+                    <span class="Sequence-attribute">OPR,DEF,FM,SV,CM,OV,POC<br/>FOC,LR,SOB,MB</span>
                 </div>
             </div>
             <!-- 第 15 行 -->
             <div class="row">
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/IxobrychusSinensis_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>IxobrychusSinensis</span>
-                    <span>OPR,DEF,FM,SV,CM,POC,MB</span>
+                    <span class="Sequence-name">IxobrychusSinensis</span>
+                    <span class="Sequence-attribute">OPR,DEF,FM,SV,CM,POC,MB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Jackal_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Jackal<br/></span>
-                    <span>OPR,DEF,FM,SV,OV,POC,FOC<br/>MB</span>
+                    <span class="Sequence-name">Jackal<br/></span>
+                    <span class="Sequence-attribute">OPR,DEF,FM,SV,OV,POC,FOC<br/>MB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Jellyfish_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Jellyfish<br/></span>
-                    <span>DEF,FM,SV,CM</span>
+                    <span class="Sequence-name">Jellyfish<br/></span>
+                    <span class="Sequence-attribute">DEF,FM,SV,CM</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Kudu_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Kudu<br/></span>
-                    <span>OPR,IPR,DEF,SV,CM,SOB</span>
+                    <span class="Sequence-name">Kudu<br/></span>
+                    <span class="Sequence-attribute">OPR,IPR,DEF,SV,CM,SOB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Lark_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Lark<br/></span>
-                    <span>OPR,IPR,DEF,SV,POC,SOB</span>
+                    <span class="Sequence-name">Lark<br/></span>
+                    <span class="Sequence-attribute">OPR,IPR,DEF,SV,POC,SOB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/LarusRelictus_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>LarusRelictus</span>
-                    <span>OPR,DEF,FM,SV,CM,SOB</span>
+                    <span class="Sequence-name">LarusRelictus</span>
+                    <span class="Sequence-attribute">OPR,DEF,FM,SV,CM,SOB</span>
                 </div>
             </div>
             <!-- 第 16 行 -->
             <div class="row">
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Leopard1_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Leopard1<br/></span>
-                    <span>DEF</span>
+                    <span class="Sequence-name">Leopard1<br/></span>
+                    <span class="Sequence-attribute">DEF</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Leopard2_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Leopard2</span>
-                    <span>FM,SV,CM,POC,FOC,MB</span>
+                    <span class="Sequence-name">Leopard2</span>
+                    <span class="Sequence-attribute">FM,SV,CM,POC,FOC,MB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Leopard3_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Leopard3</span>
-                    <span>IV,OPR,FM,SV,CM,POC,FOC</span>
+                    <span class="Sequence-name">Leopard3</span>
+                    <span class="Sequence-attribute">IV,OPR,FM,SV,CM,POC,FOC</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Leopard4_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Leopard4</span>
-                    <span>OPR,FM,SV,OV,POC,FOC,SOB<br/>MB</span>
+                    <span class="Sequence-name">Leopard4</span>
+                    <span class="Sequence-attribute">OPR,FM,SV,OV,POC,FOC,SOB<br/>MB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/LeopardHunting1_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>LeopardHunting1</span>
-                    <span>OPR,FM,SV,CM,OV,MB</span>
+                    <span class="Sequence-name">LeopardHunting1</span>
+                    <span class="Sequence-attribute">OPR,FM,SV,CM,OV,MB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/LeopardHunting2_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>LeopardHunting2</span>
-                    <span>IV,OPR,FM,SV,POC,FOC,MB</span>
+                    <span class="Sequence-name">LeopardHunting2</span>
+                    <span class="Sequence-attribute">IV,OPR,FM,SV,POC,FOC,MB</span>
                 </div>
             </div>
             <!-- 第 17 行 -->
             <div class="row">
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Lion_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Lion<br/></span>
-                    <span>FM,SV,POC,FOC,LR,</span>
+                    <span class="Sequence-name">Lion<br/></span>
+                    <span class="Sequence-attribute">FM,SV,POC,FOC,LR,</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Lion1_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Lion1<br/></span>
-                    <span>OPR,DEF,FM,SV,CM,OV,POC<br/>FOC,SOB,MB</span>
+                    <span class="Sequence-name">Lion1<br/></span>
+                    <span class="Sequence-attribute">OPR,DEF,FM,SV,CM,OV,POC<br/>FOC,SOB,MB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Lion2_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Lion2<br/></span>
-                    <span>OPR,IPR,SV</span>
+                    <span class="Sequence-name">Lion2<br/></span>
+                    <span class="Sequence-attribute">OPR,IPR,SV</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Lion3_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Lion3<br/></span>
-                    <span>DEF,FM,SV,CM,POC,LR,MB</span>
+                    <span class="Sequence-name">Lion3<br/></span>
+                    <span class="Sequence-attribute">DEF,FM,SV,CM,POC,LR,MB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/LionBulls_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>LionBulls<br/></span>
-                    <span>OPR,DEF,FM,SV</span>
+                    <span class="Sequence-name">LionBulls<br/></span>
+                    <span class="Sequence-attribute">OPR,DEF,FM,SV</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/LionCrockdile_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>LionCrockdile</span>
-                    <span>IV,OPR,FM,SV,CM,FOC,SOB<br/>MB</span>
+                    <span class="Sequence-name">LionCrockdile</span>
+                    <span class="Sequence-attribute">IV,OPR,FM,SV,CM,FOC,SOB<br/>MB</span>
                 </div>
             </div>
             <!-- 第 18 行 -->
             <div class="row">
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/LionDust_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>LionDust</span>
-                    <span>OPR,SV,POC,SOB,MB</span>
+                    <span class="Sequence-name">LionDust</span>
+                    <span class="Sequence-attribute">OPR,SV,POC,SOB,MB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/LionHunting1_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>LionHunting1</span>
-                    <span>IV,OPR,FM,SV,CM,</span>
+                    <span class="Sequence-name">LionHunting1</span>
+                    <span class="Sequence-attribute">IV,OPR,FM,SV,CM,</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/LionHunting2_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>LionHunting2</span>
-                    <span>DEF,FM,SV,POC,LR,MB</span>
+                    <span class="Sequence-name">LionHunting2</span>
+                    <span class="Sequence-attribute">DEF,FM,SV,POC,LR,MB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/LionRest_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>LionRest<br/></span>
-                    <span>IV,FM,SV,OV,POC</span>
+                    <span class="Sequence-name">LionRest<br/></span>
+                    <span class="Sequence-attribute">IV,FM,SV,OV,POC</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/LionScale_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>LionScale</span>
-                    <span>OPR,DEF,FM,SV,POC,LR</span>
+                    <span class="Sequence-name">LionScale</span>
+                    <span class="Sequence-attribute">OPR,DEF,FM,SV,POC,LR</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/LionsFighting_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>LionsFighting</span>
-                    <span>OPR,DEF,FM,SV,CM,POC,FOC<br/>SOB</span>
+                    <span class="Sequence-name">LionsFighting</span>
+                    <span class="Sequence-attribute">OPR,DEF,FM,SV,CM,POC,FOC<br/>SOB</span>
                 </div>
             </div>
             <!-- 第 19 行 -->
             <div class="row">
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/LittleLeopards_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>LittleLeopards</span>
-                    <span>OPR,DEF,FM,SV,CM,POC,SOB</span>
+                    <span class="Sequence-name">LittleLeopards</span>
+                    <span class="Sequence-attribute">OPR,DEF,FM,SV,CM,POC,SOB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Lophiiformes_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Lophiiformes</span>
-                    <span>IV,OPR,DEF,FM,SV,CM,LR</span>
+                    <span class="Sequence-name">Lophiiformes</span>
+                    <span class="Sequence-attribute">IV,OPR,DEF,FM,SV,CM,LR</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Zebra1_0001.jpg" style="width: 150px;height: 150px;">    <!--  最后一个数据集 -->
-                    <span>Zebra1<br/></span>
-                    <span>IV,OPR,DEF,FM,SV,CM,POC<br/>FOC,MB</span>
+                    <span class="Sequence-name">Zebra1<br/></span>
+                    <span class="Sequence-attribute">IV,OPR,DEF,FM,SV,CM,POC<br/>FOC,MB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/LxobrychusEurhythmus_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>LxobrychusEurhythmus</span>
-                    <span>OPR,IPR,DEF,FM,SV,CM,POC<br/>LR,MB</span>
+                    <span class="Sequence-name">LxobrychusEurhythmus</span>
+                    <span class="Sequence-attribute">OPR,IPR,DEF,FM,SV,CM,POC<br/>LR,MB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/LycaonPictus1_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>LycaonPictus1</span>
-                    <span>OPR,FM,SV,POC,FOC,SOB,MB</span>
+                    <span class="Sequence-name">LycaonPictus1</span>
+                    <span class="Sequence-attribute">OPR,FM,SV,POC,FOC,SOB,MB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/LycaonPictus2_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>LycaonPictus2</span>
-                    <span>POC,FOC,SOB</span>
+                    <span class="Sequence-name">LycaonPictus2</span>
+                    <span class="Sequence-attribute">POC,FOC,SOB</span>
                 </div>
             </div>
             <!-- 第 20 行 -->
             <div class="row">
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Lynxlynx_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Lynxlynx<br/></span>
-                    <span>DEF,SV,MB</span>
+                    <span class="Sequence-name">Lynxlynx<br/></span>
+                    <span class="Sequence-attribute">DEF,SV,MB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/MalayBunting_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>MalayBunting</span>
-                    <span>OPR,LR,SOB,MB</span>
+                    <span class="Sequence-name">MalayBunting</span>
+                    <span class="Sequence-attribute">OPR,LR,SOB,MB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Mantis1_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Mantis1<br/></span>
-                    <span>IV,OPR,DEF,FM,SV,CM,OV<br/>POC,LR,MB</span>
+                    <span class="Sequence-name">Mantis1<br/></span>
+                    <span class="Sequence-attribute">IV,OPR,DEF,FM,SV,CM,OV<br/>POC,LR,MB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Mantis2_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Mantis2<br/></span>
-                    <span>OPR,DEF,FM,SV,CM,OV,POC<br/>FOC,LR,MB</span>
+                    <span class="Sequence-name">Mantis2<br/></span>
+                    <span class="Sequence-attribute">OPR,DEF,FM,SV,CM,OV,POC<br/>FOC,LR,MB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Monkey1_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Monkey1</span>
-                    <span>OPR,IPR,DEF,SV,MB</span>
+                    <span class="Sequence-name">Monkey1</span>
+                    <span class="Sequence-attribute">OPR,IPR,DEF,SV,MB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Monkey2_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Monkey2</span>
-                    <span>IV,OPR,DEF,FM,SV,CM,POC<br/>FOC,LR,SOB</span>
+                    <span class="Sequence-name">Monkey2</span>
+                    <span class="Sequence-attribute">IV,OPR,DEF,FM,SV,CM,POC<br/>FOC,LR,SOB</span>
                 </div>
             </div>
             <!-- 第 21 行 -->
             <div class="row">
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Monkey3_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Monkey3</span>
-                    <span>IV,OPR</span>
+                    <span class="Sequence-name">Monkey3</span>
+                    <span class="Sequence-attribute">IV,OPR</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/MustelaNivalis_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>MustelaNivalis</span>
-                    <span>OPR,DEF,FM,SV,OV,POC,LR<br/>MB</span>
+                    <span class="Sequence-name">MustelaNivalis</span>
+                    <span class="Sequence-attribute">OPR,DEF,FM,SV,OV,POC,LR<br/>MB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Nightingale_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Nightingale</span>
-                    <span>DEF,FM,SV,CM</span>
+                    <span class="Sequence-name">Nightingale</span>
+                    <span class="Sequence-attribute">DEF,FM,SV,CM</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/NorthAmericanBison_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>NorthAmericanBison</span>
-                    <span>OPR,FM,SV,CM,POC,FOC<br/>LR,MB</span>
+                    <span class="Sequence-name">NorthAmericanBison</span>
+                    <span class="Sequence-attribute">OPR,FM,SV,CM,POC,FOC<br/>LR,MB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/OchotonaCurzoniae1_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>OchotonaCurzoniae1</span>
-                    <span>OPR,IPR,DEF,FM,SV,,OV,LR<br/>SOB</span>
+                    <span class="Sequence-name">OchotonaCurzoniae1</span>
+                    <span class="Sequence-attribute">OPR,IPR,DEF,FM,SV,,OV,LR<br/>SOB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/OchotonaCurzoniae2_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>OchotonaCurzoniae2</span>
-                    <span>IV,OPR,DEF,FM,SV,CM,OV<br/>POC,LR,SOB</span>
+                    <span class="Sequence-name">OchotonaCurzoniae2</span>
+                    <span class="Sequence-attribute">IV,OPR,DEF,FM,SV,CM,OV<br/>POC,LR,SOB</span>
                 </div>
             </div>
             <!-- 第 22 行 -->
             <div class="row">
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/OchotonaCurzoniae3_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>OchotonaCurzoniae3</span>
-                    <span>OPR,DEF,FM,SV,CM,POC</span>
+                    <span class="Sequence-name">OchotonaCurzoniae3</span>
+                    <span class="Sequence-attribute">OPR,DEF,FM,SV,CM,POC</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/OchotonaCurzoniae4_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>OchotonaCurzoniae4</span>
-                    <span>FM,SV,OV,POC,FOC,MB</span>
+                    <span class="Sequence-name">OchotonaCurzoniae4</span>
+                    <span class="Sequence-attribute">FM,SV,OV,POC,FOC,MB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/OchotonaCurzoniae5_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>OchotonaCurzoniae5<br/></span>
-                    <span>MB</span>
+                    <span class="Sequence-name">OchotonaCurzoniae5<br/></span>
+                    <span class="Sequence-attribute">MB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/OchotonaCurzoniae6_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>OchotonaCurzoniae6</span>
-                    <span>SV,POC</span>
+                    <span class="Sequence-name">OchotonaCurzoniae6</span>
+                    <span class="Sequence-attribute">SV,POC</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/OchotonaCurzoniae7_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>OchotonaCurzoniae7</span>
-                    <span>IV,OPR,FM,SV,CM</span>
+                    <span class="Sequence-name">OchotonaCurzoniae7</span>
+                    <span class="Sequence-attribute">IV,OPR,FM,SV,CM</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/OchotonaCurzoniaeLong_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>OchotonaCurzoniaeLong</span>
-                    <span>IV,OPR,FM,SV,CM,OV,POC<br/>FOC,LR,MB</span>
+                    <span class="Sequence-name">OchotonaCurzoniaeLong</span>
+                    <span class="Sequence-attribute">IV,OPR,FM,SV,CM,OV,POC<br/>FOC,LR,MB</span>
                 </div>
             </div>
             <!-- 第 23 行 -->
             <div class="row">
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Octopus_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Octopus<br/></span>
-                    <span>OPR,DEF,FM,SV,CM,POC</span>
+                    <span class="Sequence-name">Octopus<br/></span>
+                    <span class="Sequence-attribute">OPR,DEF,FM,SV,CM,POC</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Orangutans_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Orangutans</span>
-                    <span>OPR,IPR,DEF,SV,CM,POC,MB</span>
+                    <span class="Sequence-name">Orangutans</span>
+                    <span class="Sequence-attribute">OPR,IPR,DEF,SV,CM,POC,MB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Oriole_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Oriole<br/></span>
-                    <span>IV,OPR,IPR,SV,POC,SOB</span>
+                    <span class="Sequence-name">Oriole<br/></span>
+                    <span class="Sequence-attribute">IV,OPR,IPR,SV,POC,SOB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Osprey_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Osprey<br/></span>
-                    <span>OPR,DEF,SV,CM,POC,LR</span>
+                    <span class="Sequence-name">Osprey<br/></span>
+                    <span class="Sequence-attribute">OPR,DEF,SV,CM,POC,LR</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Owl_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Owl<br/></span>
-                    <span>OPR,FM,SV,CM,OV,POC</span>
+                    <span class="Sequence-name">Owl<br/></span>
+                    <span class="Sequence-attribute">OPR,FM,SV,CM,OV,POC</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/owl1_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>owl1<br/></span>
-                    <span>OPR,SOB,MB</span>
+                    <span class="Sequence-name">owl1<br/></span>
+                    <span class="Sequence-attribute">OPR,SOB,MB</span>
                 </div>
             </div>
             <!-- 第 24 行 -->
             <div class="row">
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Owl2_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Owl2<br/></span>
-                    <span>OPR,IPR,FM,SV,LR,SOB,MB</span>
+                    <span class="Sequence-name">Owl2<br/></span>
+                    <span class="Sequence-attribute">OPR,IPR,FM,SV,LR,SOB,MB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Panamic_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Panamic<br/></span>
-                    <span>SOB</span>
+                    <span class="Sequence-name">Panamic<br/></span>
+                    <span class="Sequence-attribute">SOB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Pelican1_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Pelican1<br/></span>
-                    <span>OPR,IPR,OV,LR,MB</span>
+                    <span class="Sequence-name">Pelican1<br/></span>
+                    <span class="Sequence-attribute">OPR,IPR,OV,LR,MB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Pelican2_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Pelican2<br/></span>
-                    <span>IV,OPR,DEF,FM,SV,POC,FOC<br/>LR,SOB</span>
+                    <span class="Sequence-name">Pelican2<br/></span>
+                    <span class="Sequence-attribute">IV,OPR,DEF,FM,SV,POC,FOC<br/>LR,SOB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Pelican3_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Pelican3<br/></span>
-                    <span>OPR,DEF,FM,SV,CM,OV,POC<br/>LR,SOB,MB</span>
+                    <span class="Sequence-name">Pelican3<br/></span>
+                    <span class="Sequence-attribute">OPR,DEF,FM,SV,CM,OV,POC<br/>LR,SOB,MB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Pheasant_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Pheasant</span>
-                    <span>IV,FM,SV,POC,LR</span>
+                    <span class="Sequence-name">Pheasant</span>
+                    <span class="Sequence-attribute">IV,FM,SV,POC,LR</span>
                 </div>
             </div>
             <!-- 第 25 行 -->
             <div class="row">
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/PolarBear1_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>PolarBear1</span>
-                    <span>OPR,IPR,DEF,FM,SV,CM,POC<br/>SOB</span>
+                    <span class="Sequence-name">PolarBear1</span>
+                    <span class="Sequence-attribute">OPR,IPR,DEF,FM,SV,CM,POC<br/>SOB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/PolarBear2_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>PolarBear2</span>
-                    <span>OPR,DEF,FM,SV,POC,FOC</span>
+                    <span class="Sequence-name">PolarBear2</span>
+                    <span class="Sequence-attribute">OPR,DEF,FM,SV,POC,FOC</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/PolyplectronBicalcaratum_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>PolyplectronBicalcaratum</span>
-                    <span>OPR,IPR,DEF,POC,MB</span>
+                    <span class="Sequence-name">PolyplectronBicalcaratum</span>
+                    <span class="Sequence-attribute">OPR,IPR,DEF,POC,MB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/PomadasysArgenteus1_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>PomadasysArgenteus1</span>
-                    <span>IV,IPR,FM,SV,POC,FOC,SOB</span>
+                    <span class="Sequence-name">PomadasysArgenteus1</span>
+                    <span class="Sequence-attribute">IV,IPR,FM,SV,POC,FOC,SOB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/PomadasysArgenteus2_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>PomadasysArgenteus2</span>
-                    <span>OPR,FM,SV,POC,FOC,LR,SOB</span>
+                    <span class="Sequence-name">PomadasysArgenteus2</span>
+                    <span class="Sequence-attribute">OPR,FM,SV,POC,FOC,LR,SOB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/PomadasysArgenteus3_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>PomadasysArgenteus3</span>
-                    <span>OPR,DEF,SV,POC,LR,SOB</span>
+                    <span class="Sequence-name">PomadasysArgenteus3</span>
+                    <span class="Sequence-attribute">OPR,DEF,SV,POC,LR,SOB</span>
                 </div>
             </div>
             <!-- 第 26 行 -->
             <div class="row">
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/PrairieHazelChicken_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>PrairieHazelChicken</span>
-                    <span>OPR,DEF,FM,SV,CM,MB</span>
+                    <span class="Sequence-name">PrairieHazelChicken</span>
+                    <span class="Sequence-attribute">OPR,DEF,FM,SV,CM,MB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/RainbowPheasant_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>RainbowPheasant</span>
-                    <span>OPR,IPR,DEF,MB</span>
+                    <span class="Sequence-name">RainbowPheasant</span>
+                    <span class="Sequence-attribute">OPR,IPR,DEF,MB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Ratel1_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Ratel1<br/></span>
-                    <span>IV,OPR,DEF,FM,SV,CM,OV,POC<br/>FOC,LR,SOB,MB</span>
+                    <span class="Sequence-name">Ratel1<br/></span>
+                    <span class="Sequence-attribute">IV,OPR,DEF,FM,SV,CM,OV,POC<br/>FOC,LR,SOB,MB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Ratel2_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Ratel2<br/></span>
-                    <span>OPR,DEF,FM,SV,OV,POC,MB</span>
+                    <span class="Sequence-name">Ratel2<br/></span>
+                    <span class="Sequence-attribute">OPR,DEF,FM,SV,OV,POC,MB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Ratel3_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Ratel3<br/></span>
-                    <span>OPR,DEF,FM,SV,OV,POC,FOC<br/>SOB,MB</span>
+                    <span class="Sequence-name">Ratel3<br/></span>
+                    <span class="Sequence-attribute">OPR,DEF,FM,SV,OV,POC,FOC<br/>SOB,MB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Rhinoceros_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Rhinoceros</span>
-                    <span>OPR,DEF,FM,SV,CM,POC,FOC<br/>LR,MB</span>
+                    <span class="Sequence-name">Rhinoceros</span>
+                    <span class="Sequence-attribute">OPR,DEF,FM,SV,CM,POC,FOC<br/>LR,MB</span>
                 </div>
             </div>
             <!-- 第 27 行 -->
             <div class="row">
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/RhinocerosAlba_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>RhinocerosAlba</span>
-                    <span>OPR,IPR,FM,SV,OV,POC,FOC<br/>>SOB,MB</span>
+                    <span class="Sequence-name">RhinocerosAlba</span>
+                    <span class="Sequence-attribute">OPR,IPR,FM,SV,OV,POC,FOC<br/>>SOB,MB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/RhynchostracionNasus_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>RhynchostracionNasus</span>
-                    <span>OPR,IPR,DEF,SV,POC</span>
+                    <span class="Sequence-name">RhynchostracionNasus</span>
+                    <span class="Sequence-attribute">OPR,IPR,DEF,SV,POC</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/RibbonBird1_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>RibbonBird1</span>
-                    <span>IV,OPR,DEF,FM,SV,CM,OV<br/>POC,LR,MB</span>
+                    <span class="Sequence-name">RibbonBird1</span>
+                    <span class="Sequence-attribute">IV,OPR,DEF,FM,SV,CM,OV<br/>POC,LR,MB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/RibbonBird2_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>RibbonBird2</span>
-                    <span>OPR,IPR,DEF,FM,SV,CM,POC<br/>FOC,LR,MB</span>
+                    <span class="Sequence-name">RibbonBird2</span>
+                    <span class="Sequence-attribute">OPR,IPR,DEF,FM,SV,CM,POC<br/>FOC,LR,MB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/ScolopaxRusticola_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>ScolopaxRusticola</span>
-                    <span>IPR,FM,SV,OV,LR,MB</span>
+                    <span class="Sequence-name">ScolopaxRusticola</span>
+                    <span class="Sequence-attribute">IPR,FM,SV,OV,LR,MB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Seagull_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Seagull<br/></span>
-                    <span>OPR,IPR,FM,SV,CM,POC,LR<br/>SOB,MB</span>
+                    <span class="Sequence-name">Seagull<br/></span>
+                    <span class="Sequence-attribute">OPR,IPR,FM,SV,CM,POC,LR<br/>SOB,MB</span>
                 </div>
             </div>
             <!-- 第 28 行 -->
             <div class="row">
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Seal_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Seal<br/></span>
-                    <span>IV,OPR,DEF,FM,SV,CM,POC<br/>FOC,MB</span>
+                    <span class="Sequence-name">Seal<br/></span>
+                    <span class="Sequence-attribute">IV,OPR,DEF,FM,SV,CM,POC<br/>FOC,MB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Shark_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Shark<br/></span>
-                    <span>IV,OPR,IPR,DEF,FM,SV,CM,OV<br/>POC,FOC,LR,MB</span>
+                    <span class="Sequence-name">Shark<br/></span>
+                    <span class="Sequence-attribute">IV,OPR,IPR,DEF,FM,SV,CM,OV<br/>POC,FOC,LR,MB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/SilverBlackFox_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>SilverBlackFox</span>
-                    <span>IV,OPR,DEF,FM,SV,OV,POC<br/>LR,MB</span>
+                    <span class="Sequence-name">SilverBlackFox</span>
+                    <span class="Sequence-attribute">IV,OPR,DEF,FM,SV,OV,POC<br/>LR,MB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Skua_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Skua<br/></span>
-                    <span>OPR,IPR,DEF,FM,SV,OV,POC<br/>FOC,LR,MB</span>
+                    <span class="Sequence-name">Skua<br/></span>
+                    <span class="Sequence-attribute">OPR,IPR,DEF,FM,SV,OV,POC<br/>FOC,LR,MB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Snake_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Snake<br/></span>
-                    <span>DEF,FM,SV,CM</span>
+                    <span class="Sequence-name">Snake<br/></span>
+                    <span class="Sequence-attribute">DEF,FM,SV,CM</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/SnowOwl_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>SnowOwl</span>
-                    <span>OPR,DEF,FM,SV,POC,FOC</span>
+                    <span class="Sequence-name">SnowOwl</span>
+                    <span class="Sequence-attribute">OPR,DEF,FM,SV,POC,FOC</span>
                 </div>
             </div>
             <!-- 第 29 行 -->
             <div class="row">
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/SnowPantherIllumination_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>SnowPantherIllumination</span>
-                    <span>IV</span>
+                    <span class="Sequence-name">SnowPantherIllumination</span>
+                    <span class="Sequence-attribute">IV</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/SnowPantherNormal_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>SnowPantherNormal</span>
-                    <span>IV,FM,SV,CM,FOC</span>
+                    <span class="Sequence-name">SnowPantherNormal</span>
+                    <span class="Sequence-attribute">IV,FM,SV,CM,FOC</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/SnowPantherSwitch1_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>SnowPantherSwitch1</span>
-                    <span>IV,DEF,FM,SV,CM</span>
+                    <span class="Sequence-name">SnowPantherSwitch1</span>
+                    <span class="Sequence-attribute">IV,DEF,FM,SV,CM</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/SnowPantherSwitch2_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>SnowPantherSwitch2</span>
-                    <span>IV,FM,SV,CM,POC</span>
+                    <span class="Sequence-name">SnowPantherSwitch2</span>
+                    <span class="Sequence-attribute">IV,FM,SV,CM,POC</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/SnowPantherSwitch3_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>SnowPantherSwitch3</span>
-                    <span>IV,OPR,DEF,FM,SV,CM,POC<br/>MB</span>
+                    <span class="Sequence-name">SnowPantherSwitch3</span>
+                    <span class="Sequence-attribute">IV,OPR,DEF,FM,SV,CM,POC<br/>MB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/SnowPantherSwitch4_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>SnowPantherSwitch4</span>
-                    <span>OPR,FM,SV,CM,OV,POC,FOC<br/>MB</span>
+                    <span class="Sequence-name">SnowPantherSwitch4</span>
+                    <span class="Sequence-attribute">OPR,FM,SV,CM,OV,POC,FOC<br/>MB</span>
                 </div>
             </div>
             <!-- 第 30 行 -->
             <div class="row">
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/SnowyOwl_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>SnowyOwl</span>
-                    <span>IV,OPR,DEF,FM,SV,CM,OV<br/>POC,FOC,LR,SOB,MB</span>
+                    <span class="Sequence-name">SnowyOwl</span>
+                    <span class="Sequence-attribute">IV,OPR,DEF,FM,SV,CM,OV<br/>POC,FOC,LR,SOB,MB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Sparrowhawk_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Sparrowhawk</span>
-                    <span>OPR,IPR,FM,SV,POC,FOC,MB</span>
+                    <span class="Sequence-name">Sparrowhawk</span>
+                    <span class="Sequence-attribute">OPR,IPR,FM,SV,POC,FOC,MB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Spider1_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Spider1<br/></span>
-                    <span>IV,IPR,FM,SV,CM,OV,LR,SOB<br/>MB</span>
+                    <span class="Sequence-name">Spider1<br/></span>
+                    <span class="Sequence-attribute">IV,IPR,FM,SV,CM,OV,LR,SOB<br/>MB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Spider2_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Spider2<br/></span>
-                    <span>OPR,IPR,DEF,FM,SV,OV,POC<br/>FOC,LR,SOB,MB</span>
+                    <span class="Sequence-name">Spider2<br/></span>
+                    <span class="Sequence-attribute">OPR,IPR,DEF,FM,SV,OV,POC<br/>FOC,LR,SOB,MB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/SpikeFalcon_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>SpikeFalcon</span>
-                    <span>OPR,IPR,FM,OV,POC</span>
+                    <span class="Sequence-name">SpikeFalcon</span>
+                    <span class="Sequence-attribute">OPR,IPR,FM,OV,POC</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Spoonbill_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Spoonbill</span>
-                    <span>OPR,IPR,DEF,POC,LR,SOB,MB</span>
+                    <span class="Sequence-name">Spoonbill</span>
+                    <span class="Sequence-attribute">OPR,IPR,DEF,POC,LR,SOB,MB</span>
                 </div>
             </div>
             <!-- 第 31 行 -->
             <div class="row">
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/SpottedHyena_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>SpottedHyena</span>
-                    <span>DEF,SV,POC,FOC,LR,SOB</span>
+                    <span class="Sequence-name">SpottedHyena</span>
+                    <span class="Sequence-attribute">DEF,SV,POC,FOC,LR,SOB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Squirrel1_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Squirrel1</span>
-                    <span>IV,IPR,DEF,FM,SV,CM</span>
+                    <span class="Sequence-name">Squirrel1</span>
+                    <span class="Sequence-attribute">IV,IPR,DEF,FM,SV,CM</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/SternaAurantia_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>SternaAurantia</span>
-                    <span>IV,OPR,IPR,DEF,FM,SV,CM<br/>POC,SOB,MB</span>
+                    <span class="Sequence-name">SternaAurantia</span>
+                    <span class="Sequence-attribute">IV,OPR,IPR,DEF,FM,SV,CM<br/>POC,SOB,MB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Tern_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Tern<br/></span>
-                    <span>IV,OPR,DEF,SV,POC</span>
+                    <span class="Sequence-name">Tern<br/></span>
+                    <span class="Sequence-attribute">IV,OPR,DEF,SV,POC</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/TheBlackBear_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>TheBlackBear</span>
-                    <span>IV,IPR,DEF,FM,SV,CM,SOB</span>
+                    <span class="Sequence-name">TheBlackBear</span>
+                    <span class="Sequence-attribute">IV,IPR,DEF,FM,SV,CM,SOB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/TheGreatFox_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>TheGreatFox</span>
-                    <span>OPR,DEF,FM,SV,CM,POC,LR</span>
+                    <span class="Sequence-name">TheGreatFox</span>
+                    <span class="Sequence-attribute">OPR,DEF,FM,SV,CM,POC,LR</span>
                 </div>
             </div>
             <!-- 第 32 行 -->
             <div class="row">
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/ThreeToedGalbulidae_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>ThreeToedGalbulidae</span>
-                    <span>OPR,SOB</span>
+                    <span class="Sequence-name">ThreeToedGalbulidae</span>
+                    <span class="Sequence-attribute">OPR,SOB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Tragopan_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Tragopan</span>
-                    <span>IPR,DEF</span>
+                    <span class="Sequence-name">Tragopan</span>
+                    <span class="Sequence-attribute">IPR,DEF</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/TremellaAcacia_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>TremellaAcacia</span>
-                    <span>OPR,FM,CM,OV,POC,MB</span>
+                    <span class="Sequence-name">TremellaAcacia</span>
+                    <span class="Sequence-attribute">OPR,FM,CM,OV,POC,MB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/TurdusIliacus_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>TurdusIliacus</span>
-                    <span>OPR,POC,MB</span>
+                    <span class="Sequence-name">TurdusIliacus</span>
+                    <span class="Sequence-attribute">OPR,POC,MB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Vanelluschilensis_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Vanelluschilensis</span>
-                    <span>OPR,DEF,FM,SV,POC,LR</span>
+                    <span class="Sequence-name">Vanelluschilensis</span>
+                    <span class="Sequence-attribute">OPR,DEF,FM,SV,POC,LR</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Weasel_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Weasel<br/></span>
-                    <span>OPR,DEF,FM,SV,POC,FOC,LR<br/>SOB</span>
+                    <span class="Sequence-name">Weasel<br/></span>
+                    <span class="Sequence-attribute">OPR,DEF,FM,SV,POC,FOC,LR<br/>SOB</span>
                 </div>
             </div>
             <!-- 第 33 行 -->
             <div class="row">
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/WhiteStork_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>WhiteStork</span>
-                    <span>OPR,IPR,DEF,FM,SV,MB</span>
+                    <span class="Sequence-name">WhiteStork</span>
+                    <span class="Sequence-attribute">OPR,IPR,DEF,FM,SV,MB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/WildBoar_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>WildBoar<br/></span>
-                    <span>OPR,DEF,SV,CM</span>
+                    <span class="Sequence-name">WildBoar<br/></span>
+                    <span class="Sequence-attribute">OPR,DEF,SV,CM</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Wildebeest1_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Wildebeest1</span>
-                    <span>OPR,FM,SV,POC,LR</span>
+                    <span class="Sequence-name">Wildebeest1</span>
+                    <span class="Sequence-attribute">OPR,FM,SV,POC,LR</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Wildebeest2_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Wildebeest2</span>
-                    <span>OPR,SV,OV,POC,MB</span>
+                    <span class="Sequence-name">Wildebeest2</span>
+                    <span class="Sequence-attribute">OPR,SV,OV,POC,MB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Wildebeest3_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Wildebeest3<br/></span>
-                    <span>OPR,SOB</span>
+                    <span class="Sequence-name">Wildebeest3<br/></span>
+                    <span class="Sequence-attribute">OPR,SOB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Wildebeest4_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Wildebeest4</span>
-                    <span>OPR,FM,SV,CM,FOC,SOB,MB</span>
+                    <span class="Sequence-name">Wildebeest4</span>
+                    <span class="Sequence-attribute">OPR,FM,SV,CM,FOC,SOB,MB</span>
                 </div>
             </div>
             <!-- 第 34 行 -->
             <div class="row">
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Wildebeest5_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Wildebeest5</span>
-                    <span>OPR,DEF,FM,SV,OV,POC<br/>FOC,SOB,MB</span>
+                    <span class="Sequence-name">Wildebeest5</span>
+                    <span class="Sequence-attribute">OPR,DEF,FM,SV,OV,POC<br/>FOC,SOB,MB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Wildebeest6_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Wildebeest6</span>
-                    <span>OPR,FM,SV,POC,FOC,MB</span>
+                    <span class="Sequence-name">Wildebeest6</span>
+                    <span class="Sequence-attribute">OPR,FM,SV,POC,FOC,MB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/WildGoose_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>WildGoose</span>
-                    <span>DEF,SV,POC,LR,SOB</span>
+                    <span class="Sequence-name">WildGoose</span>
+                    <span class="Sequence-attribute">DEF,SV,POC,LR,SOB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/WildGoose1_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>WildGoose1<br/></span>
-                    <span>SOB</span>
+                    <span class="Sequence-name">WildGoose1<br/></span>
+                    <span class="Sequence-attribute">SOB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/WildGoose2_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>WildGoose2<br/></span>
-                    <span>SOB</span>
+                    <span class="Sequence-name">WildGoose2<br/></span>
+                    <span class="Sequence-attribute">SOB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/WildGoose3_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>WildGoose3<br/></span>
-                    <span>POC</span>
+                    <span class="Sequence-name">WildGoose3<br/></span>
+                    <span class="Sequence-attribute">POC</span>
                 </div>
             </div>
             <!-- 第 35 行 -->
             <div class="row">
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/WildGoose4_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>WildGoose4</span>
-                    <span>SV,OV,POC,LR,SOB</span>
+                    <span class="Sequence-name">WildGoose4</span>
+                    <span class="Sequence-attribute">SV,OV,POC,LR,SOB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                     <img src="./img/Zebra_0001.jpg" style="width: 150px;height: 150px;">
-                    <span>Zebra<br/></span>
-                    <span>IV,OPR,DEF,FM,SV,CM,OV<br/>FOC,SOB,MB</span>
+                    <span class="Sequence-name">Zebra<br/></span>
+                    <span class="Sequence-attribute">IV,OPR,DEF,FM,SV,CM,OV<br/>FOC,SOB,MB</span>
                 </div>
                 <div class="col-sm-2" style="padding-left: 2.5%; font-size: 14px;">
                    
