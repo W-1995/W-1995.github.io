@@ -5,10 +5,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="css/bootstrap.min.css" rel="stylesheet">
-  <script src="js/bootstrap.bundle.min.js"></script>
+  
   <link href="css/me.css" rel="stylesheet">
 </head>
-<body >
+<body onhashchange="fix_the_nav();">
     
     <!-- 页眉 -->
     <!-- 导航栏 -->
@@ -18,14 +18,21 @@
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="mynavbar">
-            
+          <div class="collapse navbar-collapse mx-sm-5" id="mynavbar">
             <ul class="navbar-nav me-auto">
-                <li class="nav-item" style="margin-left: 100px;">
+                <!-- <li class="nav-item" style="margin-left: 100px;">
                     <a class="nav-link" href="javascript:void(0)"><span style="font-size: 20px;">Benchmark for Wild Animal Tracking</span></a>
-                </li>
-                <li class="nav-item" >
-                    <a class="nav-link active" href="javascript:void(0)" style="margin-left: 550px;">Home</a>
+                </li> -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Home
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#Introduction">Introduction</a></li>
+                      <li><a class="dropdown-item" href="#Video">Video</a></li>
+                      <!-- <li><hr class="dropdown-divider"></li> -->
+                      <li><a class="dropdown-item" href="#Acknowledgements">Acknowledgements</a></li>
+                    </ul>
                 </li>
                 <li class="nav-item" >
                     <a class="nav-link" href="./Benchmark.html">Benchmark</a>
@@ -35,11 +42,14 @@
                 </li>
             </ul>
           </div>
+          <!-- <div class="text-light">
+              sdfsdfasdfasdfasdfasdfasdfasdfas
+          </div> -->
         </div>
     </nav>
     
     <!-- 轮播图 -->
-    <div id="carouselExampleCaptions" class="carousel slide pt-3 nav-top" data-bs-ride="carousel">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -86,7 +96,7 @@
     </div>
     <!-- 主体 -->
     <div class="container body-body ">
-        <h1 class="pt-2">Introduction</h1>
+        <h1 class="pt-2" id="Introduction">Introduction</h1>
         <hr/>
         <span>The existing benchmarks do not include enough wild-animal-sequence to evaluate the performance of the tracker. So we build the first benchmark for wild animal tracking(<b>WATB</b>).<br/></span>
         <!-- <span>Join visual-tracking Google groups for further updates, discussions, or QnAs<br/></span> -->
@@ -113,7 +123,7 @@
             </b>
           </a>
         </span>
-        <h1 class="pt-2 h1-2">Video</h1>
+        <h1 class="pt-2 h1-2" id="Video">Video</h1>
         <hr/>
         <span>
           We selected three labeled video sequences from 206 data sets for display.
@@ -163,7 +173,7 @@
           </div>
         </div>
         
-        <h1 class="pt-2 h1-2">Acknowledgements</h1>
+        <h1 class="pt-2 h1-2" id="Acknowledgements">Acknowledgements</h1>
         <hr/>
         <span>
           We refer to OTB data set and TOTB data set in the preliminary work of preparing to establish wildlife tracking benchmark. 
@@ -208,7 +218,9 @@
     <div class="body-foot bg-dark" >
       Copyright @ WATB Team 2022
     </div>
-    
+    <script src="js/me.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
 </body>
 </html>
 
