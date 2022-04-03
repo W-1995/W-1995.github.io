@@ -105,4 +105,13 @@
         font-size: 10px;
     }
     /* 测试github上传相同文件是否会覆盖原来内容 */
+    h1{
+        font-family:'Times New Roman', Times, serif;
+        /* color: rgb(98, 0, 255); */
+        
+    }
+    .dropdown-item{
+        font-family: 'Times New Roman', Times, serif;
+        color:royalblue;
+    }
   </style>
