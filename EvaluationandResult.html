@@ -47,7 +47,9 @@
                       <li><hr class="dropdown-divider"></li>
                       <li><a class="dropdown-item" href="#Overall_all_Performance">Overall all Performance</a></li>
                       <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#Evaluation_results">Evaluation results</a></li>
+                      <li><a class="dropdown-item" href="#Species_based_Evaluation">Species-based Evaluation</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#Attribute_based_Evaluation">Attribute-based Evaluation</a></li>
                       <li><hr class="dropdown-divider"></li>
                       <li><a class="dropdown-item" href="#Test_results">Test results</a></li>
                     </ul>
@@ -370,11 +372,206 @@
                 </table>
             </div>
         </div>
-        <!-- 评估结果 -->
-        <h1 id="Evaluation_results">Evaluation results</h1>
+        <!--根据8个物种评估的结果-->
+        <h1 id="Species_based_Evaluation">Species-based Evaluation</h1>
         <hr>
         <p style="padding-left:25px">
-          In order to detect the strengths and limitations of existing trackers on wild animal tracking, we provide attribute 
+          We divided the WATB into 8 categories according to species, by the way, evaluated these 8 categories as follows.
+        </p>
+        <div class="container">
+            <table class="table">
+              <thead>
+                <tr>
+                <th scope="col" class=" th-css">species</th>
+                <th scope="col" class=" th-css">precision</th>
+                <th scope="col" class=" th-css">normalized precision</th>
+                <th scope="col" class=" th-css">success measures</th>
+              </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row" class="attribute-css" valign="middle">Bird</th>
+                  <!-- 精度图--prc-bird -->
+                  <td>
+                    <a href="./img/species_plots/prc-bird.jpg" target="blank">
+                      <img class="img-fluid" src="./img/species_plots/prc-bird.jpg">
+                    </a>
+                  </td>
+                  <!-- 标准化图--prcn-bird.jpg -->
+                  <td>
+                    <a href="./img/species_plots/prcn-bird.jpg" target="blank">
+                      <img class="img-fluid" src="./img/species_plots/prcn-bird.jpg">
+                    </a>
+                  </td>
+                  <!-- 成功图--successImg -->
+                  <td>
+                    <a href="./img/species_plots/suc-bird.jpg" target="blank">
+                      <img class="img-fluid" src="./img/species_plots/suc-bird.jpg">
+                    </a>
+                  </td>
+                </tr>
+
+                <tr>
+                  <th scope="row" class="attribute-css" valign="middle">Fish</th>
+                  <!-- 精度图--precisionImg -->
+                  <td>
+                    <a href="./img/species_plots/prc-fish.jpg" target="blank">
+                      <img class="img-fluid" src="./img/species_plots/prc-fish.jpg">
+                    </a>
+                  </td>
+                  <!-- 标准化图--prcn-Fish -->
+                  <td>
+                    <a href="./img/species_plots/prcn-Fish.jpg" target="blank">
+                      <img class="img-fluid" src="./img/species_plots/prcn-Fish.jpg">
+                    </a>
+                  </td>
+                  <!-- 成功图--suc-fish -->
+                  <td>
+                    <a href="./img/species_plots/suc-fish.jpg" target="blank">
+                      <img class="img-fluid" src="./img/species_plots/suc-fish.jpg">
+                    </a>
+                  </td>
+                </tr>
+
+                <tr>
+                  <th scope="row" class="attribute-css" valign="middle">Mammals</th>
+                  <!-- 精度图--prc-mammals.jpg -->
+                  <td>
+                    <a href="./img/species_plots/prc-mamals.jpg" target="blank">
+                      <img class="img-fluid" src="./img/species_plots/prc-mamals.jpg">
+                    </a>
+                  </td>
+                  <!-- 标准化图--prcn-mammals -->
+                  <td>
+                    <a href="./img/species_plots/prcn-mammals.jpg" target="blank">
+                      <img class="img-fluid" src="./img/species_plots/prcn-mammals.jpg">
+                    </a>
+                  </td>
+                  <!-- 成功图--suc-mammals -->
+                  <td>
+                    <a href="./img/species_plots/suc-mammals.jpg" target="blank">
+                      <img class="img-fluid" src="./img/species_plots/suc-mammals.jpg">
+                    </a>
+                  </td>
+                </tr>
+
+                <tr>
+                  <th scope="row" class="attribute-css" valign="middle">Arthropod</th>
+                  <!-- 精度图--prc-arthropod -->
+                  <td>
+                    <a href="./img/species_plots/prc-arthropod.jpg" target="blank">
+                      <img class="img-fluid" src="./img/species_plots/prc-arthropod.jpg">
+                    </a>
+                  </td>
+                  <!-- 标准化图--prcn-arthropod -->
+                  <td>
+                    <a href="./img/species_plots/prcn-arthropod.jpg" target="blank">
+                      <img class="img-fluid" src="./img/species_plots/prcn-arthropod.jpg">
+                    </a>
+                  </td>
+                  <!-- 成功图--suc-arthropod -->
+                  <td>
+                    <a href="./img/species_plots/suc-arthropod.jpg" target="blank">
+                      <img class="img-fluid" src="./img/species_plots/suc-arthropod.jpg">
+                    </a>
+                  </td>
+                </tr>
+
+                <tr>
+                  <th scope="row" class="attribute-css" valign="middle">Amphibian</th>
+                  <!-- 精度图--prc-amphibian -->
+                  <td>
+                    <a href="./img/species_plots/prc-amphibian.jpg" target="blank">
+                      <img class="img-fluid" src="./img/species_plots/prc-amphibian.jpg">
+                    </a>
+                  </td>
+                  <!-- 标准化图--prcn-amphibian -->
+                  <td>
+                    <a href="./img/species_plots/prcn-amphibian.jpg" target="blank">
+                      <img class="img-fluid" src="./img/species_plots/prcn-amphibian.jpg">
+                    </a>
+                  </td>
+                  <!-- 成功图--suc-amphibian -->
+                  <td>
+                    <a href="./img/species_plots/suc-amphibian.jpg" target="blank">
+                      <img class="img-fluid" src="./img/species_plots/suc-amphibian.jpg">
+                    </a>
+                  </td>
+                </tr>
+
+                <tr>
+                  <th scope="row" class="attribute-css" valign="middle">Reptile</th>
+                  <!-- 精度图--precisionImg -->
+                  <td>
+                    <a href="./img/species_plots/prc-reptile.jpg" target="blank">
+                      <img class="img-fluid" src="./img/species_plots/prc-reptile.jpg">
+                    </a>
+                  </td>
+                  <!-- 标准化图--normalizedPrecisionImg -->
+                  <td>
+                    <a href="./img/species_plots/prcn-reptile.jpg" target="blank">
+                      <img class="img-fluid" src="./img/species_plots/prcn-reptile.jpg">
+                    </a>
+                  </td>
+                  <!-- 成功图--successImg -->
+                  <td>
+                    <a href="./img/species_plots/suc-reptile.jpg" target="blank">
+                      <img class="img-fluid" src="./img/species_plots/suc-reptile.jpg">
+                    </a>
+                  </td>
+                </tr>
+
+                <tr>
+                  <th scope="row" class="attribute-css" valign="middle">Mollusc</th>
+                  <!-- 精度图--precisionImg -->
+                  <td>
+                    <a href="./img/species_plots/prc-mollusc.jpg" target="blank">
+                      <img class="img-fluid" src="./img/species_plots/prc-mollusc.jpg">
+                    </a>
+                  </td>
+                  <!-- 标准化图--normalizedPrecisionImg -->
+                  <td>
+                    <a href="./img/species_plots/prcn-mollusc.jpg" target="blank">
+                      <img class="img-fluid" src="./img/species_plots/prcn-mollusc.jpg">
+                    </a>
+                  </td>
+                  <!-- 成功图--successImg -->
+                  <td>
+                    <a href="./img/species_plots/suc-mollusc.jpg" target="blank">
+                      <img class="img-fluid" src="./img/species_plots/suc-mollusc.jpg">
+                    </a>
+                  </td>
+                </tr>
+
+                <tr>
+                  <th scope="row" class="attribute-css" valign="middle">Coelenterate</th>
+                  <!-- 精度图--precisionImg -->
+                  <td>
+                    <a href="./img/species_plots/prc-coelenterate.jpg" target="blank">
+                      <img class="img-fluid" src="./img/species_plots/prc-coelenterate.jpg">
+                    </a>
+                  </td>
+                  <!-- 标准化图--normalizedPrecisionImg -->
+                  <td>
+                    <a href="./img/species_plots/prcn-coelenterate.jpg" target="blank">
+                      <img class="img-fluid" src="./img/species_plots/prcn-coelenterate.jpg">
+                    </a>
+                  </td>
+                  <!-- 成功图--successImg -->
+                  <td>
+                    <a href="./img/species_plots/suc-coelenterate.jpg" target="blank">
+                      <img class="img-fluid" src="./img/species_plots/suc-coelenterate.jpg">
+                    </a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+        </div>
+        <!-- 13个属性评估结果 -->
+        <h1 id="Attribute_based_Evaluation">Attribute-based Evaluation</h1>
+        <hr>
+        <p style="padding-left:25px">
+          In order to detect the strengths and limitations of existing trackers on wild animal tracking, we provide attribute
           based evaluation under the 13 challenging attributes of WATB.
         </p>
         <div class="container">
