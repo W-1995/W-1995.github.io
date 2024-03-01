@@ -137,6 +137,160 @@
             </b>
           </a>
         </span>
+		<h1 class="pt-2 h1-2" id="Video">Update Performance</h1>
+		<hr/>
+		<span>
+          We evaluated the performance of some latest algorithms on WATB, and the performance evaluation results are as follows. Please refer to past algorithm evaluation results in <a target="blank" href="./EvaluationandResult.html#Overall_all_Performance_top">Overall all Performance.</a>
+        </span>
+		<p></p>
+		<table class="table  table-hover ">
+                <thead class="table-primary">
+                    <tr>
+                      <th scope="col">Trackers</th>
+                      <th scope="col">Description</th>
+                      <th scope="col">Language</th>
+                      <th scope="col">AUC</th>
+                      <th scope="col" id="Norm_pre">Norm Pre</th>
+                      <th scope="col">Pre</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <!-- 第 1 行 -->
+                    <tr>
+                      <th scope="row">AiATrack</th>
+                      <td>ECCV22</td>
+                      <td>Python</td>
+                      <td class="attribute-table-red">0.541</td>
+                      <td class="attribute-table-red" id="norm-pre">0.616</td>
+                      <td class="attribute-table-red">0.620</td>
+                    </tr>
+                    <!-- 第 2 行 -->
+                    <tr>
+                      <th scope="row">TATrack</th>
+                      <td>AAAI23</td>
+                      <td>Python</td>
+                      <td class="attribute-table-green">0.525</td>
+                      <td class="attribute-table-green" id="norm-pre">0.588</td>
+                      <td class="attribute-table-green">0.598</td>
+                    </tr>
+                    <!-- 第 3 行 -->
+                    <tr>
+                      <th scope="row">SeqTrack</th>
+                      <td>CVPR23</td>
+                      <td>Python</td>
+                      <td class="attribute-table-blue">0.507</td>
+                      <td id="norm-pre">0.564</td>
+                      <td class="attribute-table-blue">0.575</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">LightFC</th>
+                      <td>KBS24</td>
+                      <td>Python</td>
+                      <td>0.501</td>
+                      <td class="attribute-table-blue" id="norm-pre">0.569</td>
+                      <td>0.573</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">SparseTT</th>
+                      <td>IJCAI22</td>
+                      <td>Python</td>
+                      <td>0.499</td>
+                      <td id="norm-pre">0.557</td>
+                      <td>0.565</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">GRM</th>
+                      <td>CVPR23</td>
+                      <td>Python</td>
+                      <td>0.491</td>
+                      <td id="norm-pre">0.539</td>
+                      <td>0.549</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">SiamRBO</th>
+                      <td>CVPR22</td>
+                      <td>Python</td>
+                      <td>0.464</td>
+                      <td id="norm-pre">0.539</td>
+                      <td>0.548</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">TCTrack++</th>
+                      <td>IEEE23</td>
+                      <td>Python</td>
+                      <td>0.437</td>
+                      <td id="norm-pre">0.502</td>
+                      <td>0.509</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">ETTrack</th>
+                      <td>WACV23</td>
+                      <td>Python</td>
+                      <td>0.454</td>
+                      <td id="norm-pre">0.512</td>
+                      <td>0.506</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">CTTrack</th>
+                      <td>AAAI</td>
+                      <td>Python</td>
+                      <td>0.450</td>
+                      <td id="norm-pre">0.489</td>
+                      <td>0.499</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">SGDViT</th>
+                      <td>IEEE23</td>
+                      <td>Python</td>
+                      <td>0.427</td>
+                      <td id="norm-pre">0.486</td>
+                      <td>0.482</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">SiamTPN</th>
+                      <td>WACV22</td>
+                      <td>Python</td>
+                      <td>0.417</td>
+                      <td id="norm-pre">0.471</td>
+                      <td>0.462</td>
+                    </tr>
+                  </tbody>
+            </table>
+		<div style="padding-left: 0px;">
+            <div class="container">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col" class=" th-css">precision</th>
+                      <th scope="col" class=" th-css">normalized precision</th>
+                      <th scope="col" class=" th-css">success measures</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr style="border-bottom: 1px solid white">
+                      <!-- 更新精度图--precisionImg -->
+                      <td>
+                        <a href="./img/update_performance/pre1.png" target="blank">
+                          <img class="img-fluid" src="./img/update_performance/pre1.png">
+                        </a>
+                      </td>
+                      <!-- 更新标准化图--normalizedPrecisionImg -->
+                      <td>
+                        <a href="./img/update_performance/norm1.png" target="blank">
+                          <img class="img-fluid" src="./img/update_performance/norm1.png">
+                        </a>
+                      </td>
+                      <!-- 更新成功图--successImg -->
+                      <td>
+                        <a href="./img/update_performance/auc1.png" target="blank">
+                          <img class="img-fluid" src="./img/update_performance/auc1.png">
+                        </a>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+            </div>
+		</div>
         <h1 class="pt-2 h1-2" id="Video">Video</h1>
         <hr/>
         <span>
