@@ -80,6 +80,9 @@
       .test-result-red{
           color: red;
       }
+	  #norm-pre{
+		 padding-left: 33px;
+		}
       .test-result-blue{
         color: blue;
     }
@@ -114,4 +117,5 @@
         font-family: 'Times New Roman', Times, serif;
         color:royalblue;
     }
+	
   </style>
