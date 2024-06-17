@@ -9,3 +9,8 @@ function fix_the_nav() {
         $("body,html").scrollTop(target.offset().top-56); // my nav size is 100px
     }
 }
+function openLink(link1, link2) {
+    // 执行相应的操作，例如打开链接或者执行其他逻辑
+    window.open(link1);
+    window.open(link2);
+}
